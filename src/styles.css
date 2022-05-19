@@ -1,0 +1,271 @@
+
+:root{
+  --primaryGreen: #22502A;
+  --primaryBlue: #255048;
+  --background: #EBEBE0;
+  --primaryGrey: #768B7A;
+  --accent: #929D15;
+  --secondaryFont: #FFFFFF;
+  --paragraph: 20px;
+  --header2: 50px;
+}
+
+/*body{*/
+/*  background-color: #E2FFDC;*/
+/*}*/
+
+
+.bedrijfBtn{
+  border-style: none;
+  border-radius: 15px;
+  color: white;
+  width: 200px;
+  opacity: 10%;
+}
+
+.bedrijfBtn:hover,.hoeBtn:hover{
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+
+.bedrijfBtn{
+  background-color: #929D15;
+}
+
+/*blok1*/
+
+
+
+.beheerBtn2, .beheerBtn3, .hoeBtn, .nieuwsBtn{
+  border-style: none;
+  border-radius: 15px;
+  color: var(--background);
+  width: 250px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.beheerBtn2{
+  margin-top: 3em !important;
+  background-color: var(--accent);
+}
+
+
+
+.navigatie{
+  height: 10vw;
+  margin-top: -30px;
+}
+
+.navigatie:before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .8;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-nav{
+  display: none;
+
+}
+
+.navbar-toggler{
+  margin-bottom: 10px;
+}
+
+.nav-item{
+
+}
+
+.nav-link{
+  color: white !important;
+  font-weight: 600;
+}
+
+.navText{
+  margin-top: -0.5vw;
+}
+
+.nav-link:hover{
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+.nav-link:active{
+  color: var(--accent) !important;
+}
+
+.logoWit{
+  margin-top: -1vw;
+  /*margin-bottom: 10px;*/
+}
+
+
+@media screen and (min-width: 1721px){
+  .logoWit{
+    width: 35%;
+    margin-top: -1.8vw;
+  }
+
+  .navText{
+    /*margin-top: 30px;*/
+  }
+}
+
+@media screen and (max-width: 1420px){
+  .navigatie{
+    height: 6.2em;
+    margin-top: -10px;
+  }
+  .nav-item{
+    font-size: 90%;
+  }
+
+  .logoWit{
+    width: 35%;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 991px){
+  .navigatie{
+    width: 40%;
+    padding-top: 40px;
+    z-index: 10;
+  }
+
+  .navigatie:before{
+    background-image: none;
+  }
+
+  .navList{
+    border-radius: 100px;
+  }
+
+  .nav-item{
+    background-color: #255048;
+    padding-top: 20px;
+    margin: -5px;
+  }
+
+  .home-nav{
+    display: initial;
+    margin-top: 20px;
+    border-radius: 50px 50px 0 0px;
+  }
+  .logo-nav{
+    display: none;
+  }
+
+  .contact-nav{
+    border-radius: 0 0px 50px 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px){
+  .navigatie{
+    background-image: none;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*voor de heading van home en bedrijven*/
+
+/* video background */
+#background-video {
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  /*bottom: 0;*/
+  z-index: -1;
+}
+
+
+.content{
+  margin-top: 32vh;
+  padding: 10px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+
+.heading{
+  text-align: center;
+  margin-bottom: 7.5%;
+}
+
+.heading > h1 {
+  font-size: 4vw;
+}
+
+.logo-header{
+  width: 10vw;
+  margin-top: 4vw;
+  margin-bottom: 20px;
+}
+
+.button-box {
+  text-align:center;
+  margin-top: 20px;
+}
+
+.beheerBtn, .bedrijfBtn{
+  border-style: none;
+  border-radius: 15px;
+  color: white;
+  width: 200px;
+  opacity: 90%;
+}
+
+.logo-header:hover,.beheerBtn:hover ,.beheerBtn3:hover ,.beheerBtn2:hover, .vlaanderenImg:hover
+,.hoeBtn:hover{
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+.beheerBtn{
+  background-color: #22502A;
+}
+
+
+@media screen and (max-width: 1100px){
+  #background-video{
+    height: 134vw;
+  }
+
+  .content{
+    margin-top: 75vw;
+  }
+
+  .logo-header{
+    width: 20vw;
+    margin-top: 10vw;
+    margin-bottom: 20px;
+  }
+}
+
+

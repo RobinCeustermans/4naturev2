@@ -1,0 +1,23 @@
+:root{
+  --primaryGreen: #22502A;
+  --primaryBlue: #255048;
+  --background: #EBEBE0;
+  --primaryGrey: #768B7A;
+  --accent: #929D15;
+  --secondaryFont: #FFFFFF;
+  --paragraph: 20px;
+  --header2: 50px;
+}
+
+.navigatie{
+  position: relative;
+  z-index: 1000;
+}
+
+
+.nav-link{
+  font-size: 1vw;
+}
+
+
+
