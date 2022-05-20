@@ -15,42 +15,7 @@
 /*}*/
 
 
-.bedrijfBtn{
-  border-style: none;
-  border-radius: 15px;
-  color: white;
-  width: 200px;
-  opacity: 10%;
-}
-
-.bedrijfBtn:hover,.hoeBtn:hover{
-  transform: scale(1.1);
-  transition: 400ms;
-}
-
-
-.bedrijfBtn{
-  background-color: #929D15;
-}
-
 /*blok1*/
-
-
-
-.beheerBtn2, .beheerBtn3, .hoeBtn, .nieuwsBtn{
-  border-style: none;
-  border-radius: 15px;
-  color: var(--background);
-  width: 250px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.beheerBtn2{
-  margin-top: 3em !important;
-  background-color: var(--accent);
-}
-
 
 
 .navigatie{
@@ -186,10 +151,6 @@
 
 
 
-
-
-
-
 /*voor de heading van home en bedrijven*/
 
 /* video background */
@@ -206,8 +167,8 @@
 
 
 .content{
+  padding: 0 0 10px 0;
   margin-top: 32vh;
-  padding: 10px;
   position: relative;
   background-color: #FFFFFF;
 }
@@ -233,24 +194,32 @@
   margin-top: 20px;
 }
 
-.beheerBtn, .bedrijfBtn{
+.beheerBtn, .bedrijfBtn, .meerWetenBtnHome{
   border-style: none;
   border-radius: 15px;
   color: white;
-  width: 200px;
+  width: 250px;
   opacity: 90%;
+  font-size: 1.2vw;
+  font-weight: 700;
 }
 
-.logo-header:hover,.beheerBtn:hover ,.beheerBtn3:hover ,.beheerBtn2:hover, .vlaanderenImg:hover
-,.hoeBtn:hover{
+.logo-header:hover,.beheerBtn:hover, .bedrijfBtn:hover
+, .meerWetenBtnHome:hover{
   transform: scale(1.1);
   transition: 400ms;
 }
 
 .beheerBtn{
-  background-color: #22502A;
+  border:4px solid white;
+  font-size: 1.2vw;
+  font-weight: 700;
 }
 
+.bedrijfBtn{
+  border:4px solid var(--primaryBlue);
+  background-color: var(--primaryBlue);
+}
 
 @media screen and (max-width: 1100px){
   #background-video{

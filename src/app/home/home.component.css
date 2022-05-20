@@ -5,33 +5,79 @@
   --primaryGrey: #768B7A;
   --accent: #929D15;
   --secondaryFont: #FFFFFF;
-  --paragraph: 20px;
-  --header2: 50px;
+
 }
 
 .blok1Home{
-
-
+  padding:  0!important;
+  background-color: #EBEBE0;
+  margin-bottom: 5vw;
 }
 
 .con_01{
-  padding:20px 0;
+  padding: 0;
+
+}
+
+.iconboxContainer{
+  padding: 10px 0px 0 0px;
+
+  background-color: var(--primaryBlue);
+}
+
+.iconboxContainer2{
+  padding: 10px 0px 0 0px;
+  background-color: var(--primaryGreen)
 }
 
 .iconbox{
   text-align: center;
   width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
+.iconEarth{
+  width: 3.2vw!important;
+}
+
+.iconWater{
+  width: 3vw!important;
+}
+
+.iconTree{
+  width: 5.65vw!important;
+}
+
+.iconbox > h3{
+  font-size: 1.1vw;
+  margin-top: 0.5vw;
+  color: white !important;
+}
+
+.iconbox > p{
+  font-size: 0.8vw;
+  margin-top: 0.5vw;
+  font-weight: 500;
+  color: white !important;
+
+}
+
+.iconbox > p > b{
+  font-weight: 800;
+}
+
+
 .iconbox:hover{
-  transform: scale(1.05);
+  transform: scale(0.95);
   transition: 300ms;
+
 }
 
 
 .icon{
-  width: 80px;
-  height: 80px;
+  width: 2.8vw;
+  height: 2.8vw;
   text-align: center;
   border-radius: 50%;
   border:4px solid var(--primaryBlue);
@@ -41,24 +87,171 @@
   -ms-transition: 0.5s ease 0s;
   -o-transition: 0.5s ease 0s;
   transition: 0.5s ease 0s;
-  background-color: white;
-
+  background-color:  var(--primaryBlue);
 }
 .icon i{
-  font-size: 40px;
-  color: #f39c12;
-  margin-top: 15px;
+  font-size: 1.7vw;
+  color: #DDF0D9;
+  margin-top: 0.35vw;
+}
+
+@media screen and (max-width: 1850px){
+  .icon{
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .icon i{
+    font-size: 2.3vw;
+    margin-top: 0.5vw;
+  }
+
+  .iconbox > h3{
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+  }
+
+  .iconbox > p{
+    font-size: 1vw;
+    margin-top: 0.5vw;
+  }
+}
+
+.icon i:hover{
+  color:  var(--primaryBlue);
 }
 
 .iconbox:hover .icon{
-  background-color:  var(--primaryBlue);
+  background-color: #DDF0D9;
   border-radius: 0 100px 100px;
 }
 
+.iconbox:hover .icon i:not(:hover){
+  color:  var(--primaryBlue);
+}
+
+
 .iconbox > h3 {
   margin-bottom: 1vw;
+  color: var(--primaryBlue)
+}
+
+.section-title {
+  position: relative;
+  padding-left: 60px;
 }
 
 
 
+/*blok2Home*/
+
+
+.blok2Home{
+ padding: 5vw 5vw 7vw 5vw !important;
+}
+
+.homeCol1{
+  height: 30vw !important;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.bg-about {
+  background: url("../../assets/img/momSon.jpg"), no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px !important;
+}
+
+.tekstContainerHome{
+  padding-left: 1vw;
+  border-radius: 1vw !important;
+}
+
+.tekstKolomHome{
+  margin-left: 2vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.treeImageTitle{
+  width: 5vw;
+  position: absolute;
+  margin-top: 1.3vw;
+}
+
+
+.section-title, .bok4Row > h1{
+  font-size: 2.8vw;
+  color:  var(--primaryBlue);
+  font-weight: 700;
+}
+
+.section-subTitle{
+  font-size: 1.6vw;
+  color:  var(--primaryGreen);
+}
+
+.section-para{
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+
+
+.meerWetenBtnHome{
+  background-color: var(--primaryBlue);
+}
+
+
+/*blok3Home*/
+
+
+
+.bg-service {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../../assets/img/forestBanner.jpg"), no-repeat center center;
+  background-size: cover;
+  height: 35vw;
+}
+
+.overOnsText{
+  font-size: 1.4vw;
+}
+
+
+
+
+
+/*blok4Home*/
+
+.blok4Home{
+
+  /*padding-top: 5vw;*/
+}
+
+.callHeade6{
+  /*margin-top: 1vw;*/
+}
+
+.bg-homeBlok4{
+  background: url("../../assets/img/dadSon.jpg"), no-repeat center center;
+  background-size: cover;
+  width: 90%;
+  height: 25vw !important;
+}
+
+.callToActionh2blok4{
+  font-size: 1.8vw;
+  color: darkgoldenrod;
+}
+
+.TreeImageContainer2{
+  position: relative;
+}
+
+.treeImageTitle2{
+  width: 5vw;
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+}
 
