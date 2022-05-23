@@ -136,10 +136,10 @@
   color: var(--primaryBlue)
 }
 
-.section-title {
-  position: relative;
-  padding-left: 60px;
-}
+/*.section-title {*/
+/*  position: relative;*/
+/*  padding-left: 60px;*/
+/*}*/
 
 
 
@@ -150,53 +150,13 @@
  padding: 5vw 5vw 7vw 5vw !important;
 }
 
-.homeCol1{
-  height: 30vw !important;
-  vertical-align: middle;
-  display: table-cell;
-}
 
-.bg-about {
+.fotoLinks1 {
   background: url("../../assets/img/momSon.jpg"), no-repeat center center;
   background-size: cover;
   width: 100%;
   border-radius: 10px !important;
 }
-
-.tekstContainerHome{
-  padding-left: 1vw;
-  border-radius: 1vw !important;
-}
-
-.tekstKolomHome{
-  margin-left: 2vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-}
-
-.treeImageTitle{
-  width: 5vw;
-  position: absolute;
-  margin-top: 1.3vw;
-}
-
-
-.section-title, .bok4Row > h1{
-  font-size: 2.8vw;
-  color:  var(--primaryBlue);
-  font-weight: 700;
-}
-
-.section-subTitle{
-  font-size: 1.6vw;
-  color:  var(--primaryGreen);
-}
-
-.section-para{
-  font-size: 1.1vw;
-  font-weight: 500;
-}
-
 
 .meerWetenBtnHome{
   background-color: var(--primaryBlue);
@@ -232,26 +192,17 @@
   /*margin-top: 1vw;*/
 }
 
-.bg-homeBlok4{
+.fotoRechts1{
   background: url("../../assets/img/dadSon.jpg"), no-repeat center center;
-  background-size: cover;
-  width: 90%;
-  height: 25vw !important;
 }
 
-.callToActionh2blok4{
+.callToActionblok4HomeCol{
+  margin-top: 1vw;
+}
+
+.callToAction2blok4{
   font-size: 1.8vw;
   color: darkgoldenrod;
 }
 
-.TreeImageContainer2{
-  position: relative;
-}
-
-.treeImageTitle2{
-  width: 5vw;
-  position: absolute;
-  bottom: 15%;
-  right: 0;
-}
 
