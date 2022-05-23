@@ -1,0 +1,14 @@
+.content{
+  margin-top: -10vw;
+}
+
+
+/*eerste blok*/
+.blok2Hoe{
+  padding: 5vw 5vw 7vw 5vw !important;
+}
+
+
+.fotoLinks1 {
+  background: url("../../assets/img/community.jpg"), no-repeat center center;
+}

@@ -67,7 +67,7 @@
 
 
 .navText{
-  margin-top: -0.5vw;
+  margin-top: -1.5vw;
 }
 
 .nav-link:hover{
@@ -192,6 +192,17 @@
   font-size: 2.8vw;
   color:  var(--primaryBlue);
   font-weight: 700;
+  padding-left: 3vw;
+}
+
+.section-subTitle-rechts1, .section-subTitle-links1{
+  font-size: 1.6vw;
+  color:  var(--primaryGreen);
+}
+
+.section-para-rechts1, .section-para-links1{
+  font-size: 1.1vw;
+  font-weight: 500;
 }
 
 
@@ -234,12 +245,29 @@
 }
 
 
+
+
+/*headeing overige paginas*/
+
+.background-image{
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  /*bottom: 0;*/
+  z-index: -1;
+}
+
+
+
 /*enkel nodig als je met een fixed video werkt*/
 
 
 .content{
   padding: 0 0 10px 0;
-  margin-top: 32vh;
   position: relative;
   background-color: #FFFFFF;
 }
@@ -264,20 +292,21 @@
 
 /*kolom met foto links en tekst rechts*/
 
-.fotoLinksTekstRechts1{
-  height: 30vw !important;
+.fotoLinksTekstRechts1, .fotoRechtsTekstLinks1{
   vertical-align: middle;
   display: table-cell;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
-.fotoLinks1 {
-  background-size: cover;
-  width: 100%;
+.fotoLinks1, .fotoRechts1 {
+  background-size: cover !important;
+  width: 100% !important;
   border-radius: 10px !important;
+  background-repeat: no-repeat !important;
 }
 
-.tekstContainerRechts1{
-  padding-left: 1vw;
+.tekstContainerRechts1, .tekstContainerLinks1{
   border-radius: 1vw !important;
 }
 
@@ -287,6 +316,7 @@
   padding-bottom: 3vw;
 }
 
+
 .treeImageTitle{
   width: 5vw;
   position: absolute;
@@ -294,39 +324,22 @@
 }
 
 
-.section-title-rechts1{
-  padding-left: 3vw;
-}
-
-.section-subTitle-rechts1{
-  font-size: 1.6vw;
-  color:  var(--primaryGreen);
-}
-
-.section-para-rechts1, .section-para-links1{
-  font-size: 1.1vw;
-  font-weight: 500;
-}
-
-
-/*kolom met foto links en */
+/*kolom met foto rechts en tekst links */
 
 .fotoRechts1{
   background-size: cover;
-  width: 90%;
-  height: 25vw !important;
+  width: 100%;
+  height: 100%;
 }
-
 
 .TreeImageContainer2{
   position: relative;
 }
 
-.treeImageTitle2{
-  width: 5vw;
-  position: absolute;
-  bottom: 15%;
-  right: 0;
+.tekstKolomLinks1{
+  margin-right: 2vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }
 
 
