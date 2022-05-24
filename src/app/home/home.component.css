@@ -11,6 +11,7 @@
 .blok1Home{
   padding:  0!important;
   background-color: #EBEBE0;
+  margin-top: 20%;
   margin-bottom: 5vw;
 }
 
@@ -143,19 +144,22 @@
 
 
 
+
+
 /*blok2Home*/
 
 
-.blok2Home {
+.blok2Home, .blok4Home{
  padding: 5vw 5vw 7vw 5vw !important;
 }
 
+.fotoLinksTekstRechts1{
+  height: 32vw;
+}
 
 .fotoLinks1 {
   background: url("../../assets/img/momSon.jpg"), no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  border-radius: 10px !important;
+  height: 32vw;
 }
 
 .meerWetenBtnHome{
@@ -165,31 +169,26 @@
 
 /*blok3Home*/
 
-
-
-.bg-service {
+.bg-bos {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../../assets/img/forestBanner.jpg"), no-repeat center center;
   background-size: cover;
-  height: 35vw;
+  display:block;
 }
-
-.overOnsText{
-  font-size: 1.4vw;
-}
-
-
-
 
 
 /*blok4Home*/
 
 .blok4Home{
 
-  /*padding-top: 5vw;*/
+  margin-top: 4vw;
 }
 
 .callHeade6{
   /*margin-top: 1vw;*/
+}
+
+.fotoRechtsTekstLinks1{
+  height: 33vw;
 }
 
 .fotoRechts1{
