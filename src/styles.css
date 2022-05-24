@@ -20,7 +20,7 @@
 
 .navigatie{
   height: 7vw;
-  margin-top: -30px;
+  margin-top: -2vw;
   position: relative;
   z-index: 1000;
   padding-bottom: -10vw;
@@ -67,7 +67,7 @@
 
 
 .navText{
-  margin-top: -1.5vw;
+  margin-top: 0vw;
 }
 
 .nav-link:hover{
@@ -88,7 +88,6 @@
 @media screen and (min-width: 1721px){
   .logoWit{
     width: 35%;
-    margin-top: -2.8vw;
   }
 
   .navText{
@@ -160,7 +159,13 @@
 }
 
 
+
+
 /*algemene stijl*/
+
+
+
+
 
 .beheerBtn, .bedrijfBtn{
   border-style: none;
@@ -188,6 +193,7 @@
   background-color: var(--primaryBlue);
 }
 
+/*h1*/
 .section-title-links1, .section-title-rechts1{
   font-size: 2.8vw;
   color:  var(--primaryBlue);
@@ -195,14 +201,22 @@
   padding-left: 3vw;
 }
 
-.section-subTitle-rechts1, .section-subTitle-links1{
-  font-size: 1.6vw;
-  color:  var(--primaryGreen);
+/*h2*/
+.blok5Hoe > div > h2{
+  font-size: 2vw;
+  color:  var(--primaryBlue);
 }
 
+/*h4*/
+.section-subTitle-rechts1, .section-subTitle-links1{
+  font-size: 1.1vw;
+  color:  var(--primaryGreen);
+  font-weight: 500;
+}
+
+/*p*/
 .section-para-rechts1, .section-para-links1{
   font-size: 1.1vw;
-  font-weight: 500;
 }
 
 
@@ -299,16 +313,13 @@
   background-repeat: no-repeat !important;
 }
 
-.fotoLinks1, .fotoRechts1 {
+.fotoLinks1, .fotoRechts1, .fotoLinks2, .fotoRechts2 {
   background-size: cover !important;
   width: 100% !important;
   border-radius: 10px !important;
   background-repeat: no-repeat !important;
 }
 
-.tekstContainerRechts1, .tekstContainerLinks1{
-  border-radius: 1vw !important;
-}
 
 .tekstKolomRechts1{
   margin-left: 2vw;
@@ -318,11 +329,14 @@
 
 
 .treeImageTitle{
-  width: 5vw;
+  width: 2.2vw;
   position: absolute;
-  margin-top: 1.3vw;
+  margin-top: 2vw !important;
 }
 
+.treeImageTitle2{
+  margin-top: -0.4vw !important;
+}
 
 /*kolom met foto rechts en tekst links */
 
@@ -343,3 +357,16 @@
 }
 
 
+/*gemeenschappelijke stijl voor sectie met bosfoto als achtergrond*/
+
+
+.bosTextContainer{
+  display:table-cell;
+  vertical-align:middle;
+  padding-top: 2vw;
+  padding-bottom: 3vw;
+}
+
+.bosText{
+  font-size: 1.4vw;
+}

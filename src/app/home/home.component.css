@@ -11,7 +11,7 @@
 .blok1Home{
   padding:  0!important;
   background-color: #EBEBE0;
-  margin-top: 19vw;
+  margin-top: 20%;
   margin-bottom: 5vw;
 }
 
@@ -172,27 +172,11 @@
 
 /*blok3Home*/
 
-
-
 .bg-bos {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../../assets/img/forestBanner.jpg"), no-repeat center center;
   background-size: cover;
   display:block;
 }
-
-.overOnsTextContainer{
-  display:table-cell;
-  vertical-align:middle;
-  padding-top: 2vw;
-  padding-bottom: 3vw;
-}
-
-.overOnsText{
-  font-size: 1.4vw;
-}
-
-
-
 
 
 /*blok4Home*/
