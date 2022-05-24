@@ -27,7 +27,7 @@
 }
 
 .iconboxContainer2{
-  padding: 10px 0px 0 0px;
+  padding: 10px 0 0 0;
   background-color: var(--primaryGreen)
 }
 
@@ -148,10 +148,6 @@
 
 /*blok2Home*/
 
-
-.blok2Home, .blok4Home{
- padding: 5vw 5vw 7vw 5vw !important;
-}
 
 .fotoLinksTekstRechts1{
   height: 32vw;
