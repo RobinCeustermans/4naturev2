@@ -1,0 +1,54 @@
+:root{
+  --primaryGreen: #22502A;
+  --primaryBlue: #255048;
+  --background: #EBEBE0;
+  --primaryGrey: #768B7A;
+  --accent: #929D15;
+  --secondaryFont: #FFFFFF;
+  --paragraph: 20px;
+  --header2: 50px;
+}
+.content{
+  margin-top: -10vw;
+}
+
+.block1Overons{
+  padding: 10vw 5vw 7vw 5vw !important;
+}
+.title1{
+  font-size: 2.8vw;
+  color:  var(--primaryBlue);
+  font-weight: 700;
+  padding-left: 3vw;
+}
+.subtitle1{
+  font-size: 1.1vw;
+  color:  var(--primaryGreen);
+  font-weight: 500;
+}
+.colCard{
+  /*margin: 5vh;*/
+}
+
+.icon-cog {
+  color: darkgreen;
+}
+
+.tekstKolomRechts1{
+  height: 30vw;
+}
+.treeImageTitle{
+  width: 2.2vw;
+  position: absolute;
+  margin-top: 0vw !important;
+}
+.fotoRechts1{
+  background: url("../../assets/img/over-ons-mask.png"), no-repeat center center;
+}
+
+
+.tekstKolomLinksCards{
+  margin-right: 2vw;
+  margin-left: 7vw;
+  padding-bottom: 3vw;
+}
