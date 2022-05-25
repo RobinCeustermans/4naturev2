@@ -12,39 +12,43 @@
   margin-top: -10vw;
 }
 
-.block1Overons{
-  padding: 10vw 5vw 7vw 5vw !important;
-}
-.title1{
-  font-size: 2.8vw;
-  color:  var(--primaryBlue);
-  font-weight: 700;
-  padding-left: 3vw;
-}
-.subtitle1{
-  font-size: 1.1vw;
-  color:  var(--primaryGreen);
-  font-weight: 500;
-}
-.colCard{
-  /*margin: 5vh;*/
+
+.contactRow{
+  margin-top: 4vw;
 }
 
-.icon-cog {
-  color: darkgreen;
+
+
+.card{
+  background-color: #FFFFFF;
+  padding:0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius:4px;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
 }
 
-.tekstKolomRechts1{
-  height: 30vw;
+
+.card:hover{
+  transform: scale(0.95);
+  transition: 300ms;
 }
-.treeImageTitle{
-  width: 2.2vw;
-  position: absolute;
-  margin-top: 0vw !important;
+
+.card-body{
+  background-color: #F6FFF4;
+
 }
-.fotoRechts1{
-  background: url("../../assets/img/over-ons-mask.png"), no-repeat center center;
+
+.card-footer{
+  background-color: var(--primaryBlue);
+  margin-bottom: -1vw;
 }
+
+.linkKnop
+{
+  color: white;
+}
+
 
 
 .tekstKolomLinksCards{

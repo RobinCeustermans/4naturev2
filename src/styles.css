@@ -208,19 +208,19 @@
 }
 
 /*h4*/
-.section-subTitle-rechts1, .section-subTitle-links1{
+.section-subTitle-rechts1, .section-subTitle-links1, .naamHeaderKaart{
   font-size: 1.1vw;
   color:  var(--primaryGreen);
   font-weight: 500;
 }
 
 /*p*/
-.section-para-rechts1, .section-para-links1{
+.section-para-rechts1, .section-para-links1, .telefoonNummer{
   font-size: 1.1vw;
 }
 
 
-.blok2Home, .blok4Home, .blok4beheer, .blok1BeheerMee, .blok1Bedrijf{
+.blok2Home, .blok4Home, .blok4beheer, .blok1BeheerMee, .blok1Bedrijf, .block1Overons{
   padding: 5vw 5vw 7vw 5vw !important;
 }
 
