@@ -23,12 +23,12 @@
 .iconboxContainer{
   padding: 10px 0px 0 0px;
 
-  background-color: var(--primaryBlue);
+  background-color: #418579;
 }
 
 .iconboxContainer2{
   padding: 10px 0 0 0;
-  background-color: var(--primaryGreen)
+  background-color: #356D63
 }
 
 .iconbox{

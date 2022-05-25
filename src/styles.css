@@ -202,7 +202,7 @@
 }
 
 /*h2*/
-.blok5Hoe > div > h2{
+.blok5Hoe > div > h2, .blok3Bedrijf > div > h2, section.pricing > div > h2{
   font-size: 2vw;
   color:  var(--primaryBlue);
 }
@@ -220,7 +220,7 @@
 }
 
 
-.blok2Home, .blok4Home, .blok4beheer, .blok1BeheerMee{
+.blok2Home, .blok4Home, .blok4beheer, .blok1BeheerMee, .blok1Bedrijf{
   padding: 5vw 5vw 7vw 5vw !important;
 }
 
@@ -390,3 +390,30 @@
 .bosText{
   font-size: 1.4vw;
 }
+
+
+
+
+/*secties met gekleurde achtergrond*/
+
+
+
+
+
+.fotoLinks2, .fotoRechts2{
+  border-radius: 0 !important;
+}
+
+.tekstContainerLinks2{
+  padding-left: 7vw;
+}
+
+.tekstContainerRechts2{
+  padding-right: 7vw;
+  padding-left: 5vw;
+}
+
+.tekstKolomRechts2{
+  padding-top: 4vw;
+}
+

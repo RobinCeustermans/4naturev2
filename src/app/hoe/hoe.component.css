@@ -32,10 +32,6 @@
 }
 
 
-.fotoLinks2, .fotoRechts2{
-  border-radius: 0 !important;
-}
-
 .fotoRechts2{
   background: url("../../assets/img/plantTrees.jpg"), no-repeat center center;
   height: 30vw !important;
@@ -46,18 +42,6 @@
   height: 30vw !important;
 }
 
-.tekstContainerLinks2{
-  padding-left: 7vw;
-}
-
-.tekstContainerRechts2{
-  padding-right: 7vw;
-  padding-left: 5vw;
-}
-
-.tekstKolomRechts2{
-  padding-top: 4vw;
-}
 
 
 /*blok5*/
@@ -97,29 +81,16 @@
 .iconbox{
   text-align: center;
   width: 100%;
-  padding-left: 1vw;
-  padding-right: 1vw;
-}
-
-.iconEarth{
-  width: 3.2vw!important;
-}
-
-.iconWater{
-  width: 3vw!important;
-}
-
-.iconTree{
-  width: 5.65vw!important;
+  padding: 1vw 6vw 1vw 6vw;
+  /*background-clip: content-box;*/
+  /*background-color: #F6FFF4;*/
+  /*border-radius: 40%;*/
 }
 
 .iconImg{
   width: 5vw;
   height: 5vw;
-}
-
-.iconImg2{
-  margin-top: 3vw;
+  margin-top: 1vw;
 }
 
 .iconbox > h3{
@@ -133,7 +104,8 @@
   margin-top: 0.5vw;
   font-weight: 500;
   color: var(--primaryBlue) !important;
-
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 
 .iconbox:hover{
@@ -141,24 +113,5 @@
   transition: 300ms;
 }
 
-.icon{
-  width: 2.8vw;
-  height: 2.8vw;
-  text-align: center;
-  border-radius: 50%;
-  border:4px solid var(--primaryBlue);
-  display:inline-block;
-  -webkit-transition: 0.5s ease 0s;
-  -moz-transition: 0.5s ease 0s;
-  -ms-transition: 0.5s ease 0s;
-  -o-transition: 0.5s ease 0s;
-  transition: 0.5s ease 0s;
-  background-color:  var(--primaryBlue);
-}
-.icon i{
-  font-size: 1.7vw;
-  color: #DDF0D9;
-  margin-top: 0.35vw;
-}
 
 
