@@ -202,7 +202,8 @@
 }
 
 /*h2*/
-.blok5Hoe > div > h2, .blok3Bedrijf > div > h2, section.pricing > div > h2{
+.blok5Hoe > div > h2, .blok3Bedrijf > div > h2, section.pricing > div > h2,
+.blok2Realisaties > h2 {
   font-size: 2vw;
   color:  var(--primaryBlue);
 }
@@ -215,12 +216,13 @@
 }
 
 /*p*/
-.section-para-rechts1, .section-para-links1, .telefoonNummer{
+.section-para-rechts1, .section-para-links1, .telefoonNummer, .achievementPara{
   font-size: 1.1vw;
 }
 
 
-.blok2Home, .blok4Home, .blok4beheer, .blok1BeheerMee, .blok1Bedrijf, .block1Overons{
+.blok2Home, .blok4Home, .blok4beheer, .blok1BeheerMee, .blok1Bedrijf, .block1Overons, .blok2Realisaties
+, .blok1Realisaties{
   padding: 5vw 5vw 7vw 5vw !important;
 }
 
