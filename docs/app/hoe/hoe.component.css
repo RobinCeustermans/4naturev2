@@ -1,0 +1,117 @@
+.content{
+  margin-top: -10vw;
+}
+
+
+/*blok2*/
+.blok2Hoe{
+  padding: 10vw 5vw 7vw 5vw !important;
+}
+
+
+.fotoLinks1 {
+  background: url("../../assets/img/community.jpg"), no-repeat center center;
+  height: 32vw !important;
+}
+
+.fotoRechts1{
+  background: url("../../assets/img/dadSon.jpg"), no-repeat center center;
+  height: 32vw !important;
+}
+
+
+
+/*blok3 en 4*/
+.blok3Hoe{
+  margin-top: 5vw;
+  background-color: #F6FFF4;
+}
+
+.blok4Hoe{
+  background-color: #F6FFF4;
+}
+
+
+.fotoRechts2{
+  background: url("../../assets/img/plantTrees.jpg"), no-repeat center center;
+  height: 30vw !important;
+}
+
+.fotoLinks2{
+  background: url("../../assets/img/tree-care.jpg"), no-repeat center center;
+  height: 30vw !important;
+}
+
+
+
+/*blok5*/
+
+
+
+
+/*.bg-bos {*/
+/*  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/forestBanner.jpg"), no-repeat center center;*/
+/*  background-size: cover;*/
+/*  display:block;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.bg-bos > h1{*/
+/*  color: white;*/
+/*  font-size: 2.5vw;*/
+/*  padding: 6vw 4vw 4vw 4vw;*/
+/*}*/
+
+.blok5Hoe{
+  margin-top: 10vw;
+}
+
+.blok5Hoe > div {
+  text-align: center;
+}
+
+.blok5Hoe > div > h2{
+  margin-bottom: 2vw;
+}
+
+.iconboxGrid{
+  padding: 2vw 8vw 0 8vw;
+}
+
+.iconbox{
+  text-align: center;
+  width: 100%;
+  padding: 1vw 6vw 1vw 6vw;
+  /*background-clip: content-box;*/
+  /*background-color: #F6FFF4;*/
+  /*border-radius: 40%;*/
+}
+
+.iconImg{
+  width: 5vw;
+  height: 5vw;
+  margin-top: 1vw;
+}
+
+.iconbox > h3{
+  font-size: 1.6vw;
+  margin-top: 0.5vw;
+  color: var(--primaryBlue) !important;
+}
+
+.iconbox > p{
+  font-size: 1vw;
+  margin-top: 0.5vw;
+  font-weight: 500;
+  color: var(--primaryBlue) !important;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+.iconbox:hover{
+  transform: scale(0.95);
+  transition: 300ms;
+}
+
+
+

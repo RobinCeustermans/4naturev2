@@ -1,0 +1,111 @@
+:root{
+  --primaryGreen: #22502A;
+  --primaryBlue: #255048;
+  --background: #EBEBE0;
+  --primaryGrey: #768B7A;
+  --accent: #929D15;
+  --secondaryFont: #FFFFFF;
+  --paragraph: 20px;
+  --header2: 50px;
+}
+.content{
+  margin-top: -10vw;
+}
+
+
+.contactRow{
+  margin-top: 4vw;
+}
+
+
+
+.card{
+  background-color: #FFFFFF;
+  padding:0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius:4px;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+
+.card:hover{
+  transform: scale(0.95);
+  transition: 300ms;
+}
+
+.card-body{
+  background-color: #F6FFF4;
+
+}
+
+.card-footer{
+  background-color: var(--primaryBlue);
+  margin-bottom: -1vw;
+}
+
+.linkKnop
+{
+  color: white;
+}
+
+
+
+.tekstKolomLinksCards{
+  margin-right: 2vw;
+  margin-left: 7vw;
+  padding-bottom: 3vw;
+}
+
+/*blok2*/
+.blok2Realisaties{
+  background-color: #F6FFF4;
+  margin-bottom: -6vw;
+}
+
+.blok2Realisaties > h2 {
+  text-align: center;
+  margin-bottom: 4vw;
+}
+
+
+.achievementHeader{
+  font-size: 2.7vw;
+}
+
+.img {
+  height: 25vw;
+  width: 25vw;
+}
+
+.img:after {
+  width: 25vw;
+  height: 25vw;
+}
+
+.achievementPara {
+  position: absolute;
+  z-index: 2;
+  margin: 0 -4vw 0 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: .8s;
+  transition-timing-function: ease-in;
+  font-size: 1vw;
+}
+
+.link2{
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+
+.logo{
+  margin-top: 0.5vw;
+  width: 18vw;
+  position: relative;
+  z-index: 100;
+}
+

@@ -1,0 +1,62 @@
+
+:root{
+  --primaryGreen: #22502A;
+  --primaryBlue: #255048;
+  --background: #EBEBE0;
+  --primaryGrey: #768B7A;
+  --accent: #929D15;
+  --secondaryFont: #FFFFFF;
+  --paragraph: 20px;
+  --header2: 50px;
+}
+
+
+
+.content{
+  margin-top: 30vw !important;
+}
+
+
+/*blok1*/
+
+.blokBeheerMeeRij{
+  margin-top: 6vw;
+}
+
+
+
+.fotoLinks1 {
+  background: url("../../assets/img/ownForest.jpg"), no-repeat center center;
+  height: 33vw !important;
+}
+
+
+/*blok3*/
+
+
+.bg-service {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../../assets/img/forestHeaderBeheer.jpg"), no-repeat center center;
+  background-size: cover;
+  padding-top: 5vw !important;
+  padding-bottom: 4vw !important;
+}
+
+.overOnsText{
+  font-size: 1vw;
+}
+.block1BeheerMee{
+  padding: 7vw 5vw 7vw 5vw !important;
+}
+.blok3beheer{
+  width: 100%;
+  text-align: left;
+}
+
+
+/*blok4*/
+
+
+.fotoRechts1{
+  background: url("../../assets/img/maintenance.jpg"), no-repeat center center;
+  height: 30vw !important;
+}

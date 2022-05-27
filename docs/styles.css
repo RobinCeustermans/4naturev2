@@ -19,8 +19,12 @@
 
 
 .navigatie{
-  height: 10vw;
-  margin-top: -30px;
+  height: 7vw;
+  margin-top: -2vw;
+  position: relative;
+  z-index: 1000;
+  padding-bottom: -10vw;
+  background-color: rgba(37, 80, 72, 0.6);
 }
 
 .navigatie:before{
@@ -38,24 +42,32 @@
 
 .home-nav{
   display: none;
-
+  opacity: 100%;
 }
 
 .navbar-toggler{
   margin-bottom: 10px;
 }
 
-.nav-item{
+#navbarNav{
+  margin-top: 3vw;
+  opacity: 100% !important;
+}
 
+.nav-item{
+  opacity: 100%;
 }
 
 .nav-link{
   color: white !important;
   font-weight: 600;
+  font-size: 1vw;
+  opacity: 100% !important;
 }
 
+
 .navText{
-  margin-top: -0.5vw;
+  margin-top: 0vw;
 }
 
 .nav-link:hover{
@@ -69,6 +81,7 @@
 
 .logoWit{
   margin-top: -1vw;
+  width: 4.1vw;
   /*margin-bottom: 10px;*/
 }
 
@@ -76,7 +89,6 @@
 @media screen and (min-width: 1721px){
   .logoWit{
     width: 35%;
-    margin-top: -1.8vw;
   }
 
   .navText{
@@ -87,14 +99,15 @@
 @media screen and (max-width: 1420px){
   .navigatie{
     height: 6.2em;
-    margin-top: -10px;
+    margin-top: -1.5vw;
   }
   .nav-item{
     font-size: 90%;
   }
 
   .logoWit{
-    width: 35%;
+    width: 40%;
+    margin-top: -1.8vw;
   }
 
 }
@@ -149,12 +162,136 @@
 
 
 
+/*algemene stijl*/
 
+
+
+
+
+.beheerBtn, .bedrijfBtn{
+  border-style: none;
+  border-radius: 15px;
+  color: white;
+  width: 300px;
+  opacity: 90%;
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.logo-header:hover,.beheerBtn:hover, .bedrijfBtn:hover {
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+.beheerBtn{
+  border:4px solid white;
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.bedrijfBtn{
+  border:4px solid var(--primaryBlue);
+  background-color: var(--primaryBlue);
+}
+
+/*h1*/
+.section-title-links1, .section-title-rechts1{
+  font-size: 2.8vw;
+  color:  var(--primaryBlue);
+  font-weight: 700;
+  padding-left: 3vw;
+}
+
+/*h2*/
+.blok5Hoe > div > h2, .blok3Bedrijf > div > h2, section.pricing > div > h2,
+.blok2Realisaties > h2, .puntHeaderContainer > h2 {
+  font-size: 2vw;
+  color:  var(--primaryBlue);
+}
+
+/*h4*/
+.section-subTitle-rechts1, .section-subTitle-links1, .naamHeaderKaart{
+  font-size: 1.1vw;
+  color:  var(--primaryGreen);
+  font-weight: 500;
+}
+
+/*p*/
+.section-para-rechts1, .section-para-links1, .telefoonNummer, .achievementPara{
+  font-size: 1.1vw;
+}
+
+
+.blok2Home, .blok4Home, .blok4beheer, .blok1BeheerMee, .blok1Bedrijf, .block1Overons, .blok2Realisaties
+, .blok1Realisaties{
+  padding: 5vw 5vw 7vw 5vw !important;
+}
+
+/*linkstijl*/
+
+.link1{
+  text-decoration: none;
+  color: #768B7A;
+}
+
+.link1:hover{
+  color: #255048;
+  text-decoration: none;
+}
+
+.link2{
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.link2:hover{
+  color: #3dd5f3;
+  text-decoration: none;
+}
+
+
+/*voor privacybeleid en coockiebeleid*/
+
+
+
+.linkedHeaderContainer{
+  text-align: center;
+}
+
+.linkedHeader{
+  padding-top: 8vw;
+  font-size: 3.8vw;
+  color:  var(--primaryBlue);
+  font-weight: 700;
+}
+
+.contactGegevens, .uitlegContainer{
+  padding: 0 0 4vw 18vw;
+}
+
+.contactGegevens{
+  padding-top: 6vw;
+}
+
+.contactGegevens > p {
+  font-weight: 500;
+  font-size: 1.6vw;
+  color: #768B7A;
+}
+
+.uitlegContainer{
+  padding-right: 10vw;
+}
+
+.uitlegContainer{
+  font-size: 1.4vw;
+}
 
 /*voor de heading van home en bedrijven*/
 
+
 /* video background */
-#background-video {
+.background-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -165,19 +302,21 @@
   /*bottom: 0;*/
   z-index: -1;
 }
-
-
-.content{
-  padding: 0 0 10px 0;
-  margin-top: 32vh;
-  position: relative;
-  background-color: #FFFFFF;
+.background-image {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  /*bottom: 0;*/
+  z-index: -1;
 }
-
 
 .heading{
   text-align: center;
-  margin-bottom: 7.5%;
+  margin-bottom: 18vw
 }
 
 .heading > h1 {
@@ -195,31 +334,32 @@
   margin-top: 20px;
 }
 
-.beheerBtn, .bedrijfBtn, .meerWetenBtnHome{
-  border-style: none;
-  border-radius: 15px;
-  color: white;
-  width: 250px;
-  opacity: 90%;
-  font-size: 1.2vw;
-  font-weight: 700;
+
+
+
+/*headeing overige paginas*/
+
+.background-image{
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  /*bottom: 0;*/
+  z-index: -1;
 }
 
-.logo-header:hover,.beheerBtn:hover, .bedrijfBtn:hover
-, .meerWetenBtnHome:hover{
-  transform: scale(1.1);
-  transition: 400ms;
-}
 
-.beheerBtn{
-  border:4px solid white;
-  font-size: 1.2vw;
-  font-weight: 700;
-}
 
-.bedrijfBtn{
-  border:4px solid var(--primaryBlue);
-  background-color: var(--primaryBlue);
+/*enkel nodig als je met een fixed video werkt*/
+
+
+.content{
+  padding: 0 0 10px 0;
+  position: relative;
+  background-color: #FFFFFF;
 }
 
 @media screen and (max-width: 1100px){
@@ -239,3 +379,192 @@
 }
 
 
+
+/*kolom met foto links en tekst rechts*/
+
+.fotoLinksTekstRechts1, .fotoRechtsTekstLinks1{
+  vertical-align: middle;
+  display: table-cell;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.fotoLinks1, .fotoRechts1, .fotoLinks2, .fotoRechts2 {
+  background-size: cover !important;
+  width: 100% !important;
+  border-radius: 10px !important;
+  background-repeat: no-repeat !important;
+}
+
+
+.tekstKolomRechts1{
+  margin-left: 2vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+
+.treeImageTitle{
+  width: 2.2vw;
+  position: absolute;
+  margin-top: 2vw !important;
+}
+
+.treeImageTitle2{
+  margin-top: -0.4vw !important;
+}
+
+/*kolom met foto rechts en tekst links */
+
+.fotoRechts1{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.TreeImageContainer2{
+  position: relative;
+}
+
+.tekstKolomLinks1{
+  margin-right: 2vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+
+
+/*gemeenschappelijke stijl voor sectie met bosfoto als achtergrond*/
+
+
+.bosTextContainer{
+  display:table-cell;
+  vertical-align:middle;
+  padding-top: 2vw;
+  padding-bottom: 3vw;
+}
+
+.bosHeader{
+  font-size: 1.9vw;
+}
+
+.bosText{
+  font-size: 1.4vw;
+}
+
+
+
+
+/*secties met gekleurde achtergrond*/
+
+
+
+
+
+.fotoLinks2, .fotoRechts2{
+  border-radius: 0 !important;
+}
+
+.tekstContainerLinks2{
+  padding-left: 7vw;
+}
+
+.tekstContainerRechts2{
+  padding-right: 7vw;
+  padding-left: 5vw;
+}
+
+.tekstKolomRechts2{
+  padding-top: 4vw;
+}
+
+
+
+
+/*kaarten partners en newsfeed*/
+
+
+.containerm {
+  min-height: 20vw;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+.img {
+  overflow: hidden;
+  height: 20vw;
+  width: 20vw;
+  position: relative;
+  cursor: pointer;
+  margin: 0 15px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+  transition: .5s;
+  background-color: #555;
+  text-align: center;
+}
+
+.img:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 20vw;
+  height: 20vw;
+  transform: translate(-140%, -50%);
+  background-color: var(--primaryBlue);
+  opacity: 0.9;
+  border-radius: 50%;
+  transition: .8s
+}
+
+.img:hover:after {
+  transform: translate(-50%, -50%)
+}
+
+.img:hover .achievementHeader, .img:hover .logo{
+  display:none;
+}
+
+
+.img:hover img {
+  transform: translate(-50%, -50%) scale(1.3) rotate(20deg)
+}
+
+.achievementHeader{
+  padding: 0 1vw 0 1vw;
+  font-size: 1.6vw;
+  color: white;
+  margin-top: 2vw;
+  position: relative;
+  z-index: 100;
+}
+
+.backgroundImg {
+  height: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .8s;
+  position: absolute;
+}
+
+.achievementPara {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: .8s;
+  transition-timing-function: ease-in
+}
+
+.img:hover p {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease
+}
