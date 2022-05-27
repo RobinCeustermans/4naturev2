@@ -227,6 +227,27 @@
   padding: 5vw 5vw 7vw 5vw !important;
 }
 
+/*linkstijl*/
+
+.link1{
+  text-decoration: none;
+  color: #768B7A;
+}
+
+.link1:hover{
+  color: #255048;
+  text-decoration: none;
+}
+
+.link2{
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.link2:hover{
+  color: #3dd5f3;
+  text-decoration: none;
+}
 
 
 /*voor privacybeleid en coockiebeleid*/
@@ -457,3 +478,93 @@
   padding-top: 4vw;
 }
 
+
+
+
+/*kaarten partners en newsfeed*/
+
+
+.containerm {
+  min-height: 20vw;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+.img {
+  overflow: hidden;
+  height: 20vw;
+  width: 20vw;
+  position: relative;
+  cursor: pointer;
+  margin: 0 15px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+  transition: .5s;
+  background-color: #555;
+  text-align: center;
+}
+
+.img:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 20vw;
+  height: 20vw;
+  transform: translate(-140%, -50%);
+  background-color: var(--primaryBlue);
+  opacity: 0.9;
+  border-radius: 50%;
+  transition: .8s
+}
+
+.img:hover:after {
+  transform: translate(-50%, -50%)
+}
+
+.img:hover .achievementHeader, .img:hover .logo{
+  display:none;
+}
+
+
+.img:hover img {
+  transform: translate(-50%, -50%) scale(1.3) rotate(20deg)
+}
+
+.achievementHeader{
+  padding: 0 1vw 0 1vw;
+  font-size: 1.6vw;
+  color: white;
+  margin-top: 2vw;
+  position: relative;
+  z-index: 100;
+}
+
+.backgroundImg {
+  height: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .8s;
+  position: absolute;
+}
+
+.achievementPara {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: .8s;
+  transition-timing-function: ease-in
+}
+
+.img:hover p {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease
+}

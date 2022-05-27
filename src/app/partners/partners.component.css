@@ -60,6 +60,7 @@
 /*blok2*/
 .blok2Realisaties{
   background-color: #F6FFF4;
+  margin-bottom: -6vw;
 }
 
 .blok2Realisaties > h2 {
@@ -67,111 +68,44 @@
   margin-bottom: 4vw;
 }
 
-.containerm {
-  min-height: 20vw;
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 3vw;
+
+.achievementHeader{
+  font-size: 2.7vw;
 }
 
 .img {
-  overflow: hidden;
-  height: 20vw;
-  width: 20vw;
-  position: relative;
-  cursor: pointer;
-  margin: 0 15px;
-  box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
-  transition: .5s;
-  background-color: var(--primaryBlue);
-  text-align: center;
+  height: 25vw;
+  width: 25vw;
 }
 
 .img:after {
-  content: '';
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  width: 20vw;
-  height: 20vw;
-  transform: translate(-140%, -50%);
-  background-color: white;
-  opacity: 0.9;
-  border-radius: 50%;
-  transition: .8s
-}
-
-.img:hover:after {
-  transform: translate(-50%, -50%);
-
-}
-
-.img:hover .achievementHeader{
-  display:none;
-}
-.img:hover .achievementHeader2{
-  display:none;
-}
-
-.img:hover img {
-  /*transform: translate(-50%, -50%) scale(1.3) rotate(20deg)*/
-  display:none;
-}
-background-imagePartners {
-  height: 110%!important;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: .8s;
-  position: absolute;
-}
-
-.achievementHeader{
-  padding: 0 1vw 0 1vw;
-  font-size: 1.6vw;
-  color:white;
-  margin-top: 5vw;
-  position: relative;
-  z-index: 100;
-}
-.achievementHeader2{
-  padding: 0 1vw 0 1vw;
-  font-size: 1.6vw;
-
-  color:white;
-  margin-top: -4vw;
-  position: relative;
-  z-index: 100;
-}
-
-.img > img {
-  height: 50%;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: .8s;
-  position: absolute;
+  width: 25vw;
+  height: 25vw;
 }
 
 .achievementPara {
-  position: relative;
+  position: absolute;
   z-index: 2;
+  margin: 0 -4vw 0 0;
   top: 50%;
   left: 50%;
   transform: translate(-2000px, -50%);
-  color: var(--primaryBlue);
+  color: #fff;
   transition: .8s;
   transition-timing-function: ease-in;
-  padding-left : 1vw;
-  padding-right: 1vw;
-
+  font-size: 1vw;
 }
 
-.img:hover p {
-  transform: translate(-50%, -50%);
-  transition-timing-function: ease
+.link2{
+  font-weight: 600;
+  font-size: 1.3vw;
 }
+
+
+.logo{
+  margin-top: 0.5vw;
+  width: 18vw;
+  position: relative;
+  z-index: 100;
+}
+

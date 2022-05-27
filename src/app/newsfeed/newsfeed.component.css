@@ -17,11 +17,13 @@
 /*blok2*/
 .blok2Realisaties{
   background-color: #F6FFF4;
+  margin-bottom: -6vw;
 }
 
 .blok2Realisaties > h2 {
   text-align: center;
-  margin-bottom: 4vw;
+  font-size: 3vw;
+  margin-bottom: 6vw;
 }
 
 .containerm {
@@ -83,7 +85,7 @@
   z-index: 100;
 }
 
-.img > img {
+.backgroundImg {
   height: 110%;
   top: 50%;
   left: 50%;
