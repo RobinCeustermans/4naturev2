@@ -81,6 +81,7 @@
 
 .logoWit{
   margin-top: -1vw;
+  width: 4.1vw;
   /*margin-bottom: 10px;*/
 }
 
@@ -203,7 +204,7 @@
 
 /*h2*/
 .blok5Hoe > div > h2, .blok3Bedrijf > div > h2, section.pricing > div > h2,
-.blok2Realisaties > h2 {
+.blok2Realisaties > h2, .puntHeaderContainer > h2 {
   font-size: 2vw;
   color:  var(--primaryBlue);
 }
@@ -227,6 +228,43 @@
 }
 
 
+
+/*voor privacybeleid en coockiebeleid*/
+
+
+
+.linkedHeaderContainer{
+  text-align: center;
+}
+
+.linkedHeader{
+  padding-top: 8vw;
+  font-size: 3.8vw;
+  color:  var(--primaryBlue);
+  font-weight: 700;
+}
+
+.contactGegevens, .uitlegContainer{
+  padding: 0 0 4vw 18vw;
+}
+
+.contactGegevens{
+  padding-top: 6vw;
+}
+
+.contactGegevens > p {
+  font-weight: 500;
+  font-size: 1.6vw;
+  color: #768B7A;
+}
+
+.uitlegContainer{
+  padding-right: 10vw;
+}
+
+.uitlegContainer{
+  font-size: 1.4vw;
+}
 
 /*voor de heading van home en bedrijven*/
 

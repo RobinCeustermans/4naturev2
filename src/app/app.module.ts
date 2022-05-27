@@ -13,6 +13,9 @@ import { NewsfeedComponent } from './newsfeed/newsfeed.component';
 import { PartnersComponent } from './partners/partners.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
+import { PrivacyComponent } from './footer/privacy/privacy.component';
+import { CookieComponent } from './footer/cookie/cookie.component';
+
 
 
 // @ts-ignore
@@ -28,7 +31,9 @@ import { FooterComponent } from './footer/footer.component';
     BedrijvenComponent,
     NewsfeedComponent,
     PartnersComponent,
-    FooterComponent
+    FooterComponent,
+    PrivacyComponent,
+    CookieComponent
   ],
   imports: [
     BrowserModule,
