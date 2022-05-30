@@ -76,46 +76,73 @@
 }
 
 
-.icon{
-  width: 2.8vw;
-  height: 2.8vw;
-  text-align: center;
-  border-radius: 50%;
-  border:4px solid var(--primaryBlue);
-  display:inline-block;
-  -webkit-transition: 0.5s ease 0s;
-  -moz-transition: 0.5s ease 0s;
-  -ms-transition: 0.5s ease 0s;
-  -o-transition: 0.5s ease 0s;
-  transition: 0.5s ease 0s;
-  background-color:  var(--primaryBlue);
-}
-.icon i{
-  font-size: 1.7vw;
-  color: #DDF0D9;
-  margin-top: 0.35vw;
-}
 
-@media screen and (max-width: 1850px){
+
+@media screen and (max-width: 600px){
   .icon{
-    width: 4vw;
-    height: 4vw;
-  }
-
-  .icon i{
-    font-size: 2.3vw;
-    margin-top: 0.5vw;
+    width: 8vw;
+    height: 8vw;
   }
 
   .iconbox > h3{
-    font-size: 1.5vw;
-    margin-top: 0.5vw;
+    margin-top: 1vw;
   }
 
   .iconbox > p{
-    font-size: 1vw;
-    margin-top: 0.5vw;
+    margin-top: 1vw;
   }
+
+  .iconEarth{
+    width: 5vw!important;
+  }
+
+  .iconWater{
+    width: 5vw!important;
+  }
+
+  .iconTree{
+    width: 8vw!important;
+  }
+
+
+}
+
+@media screen and (min-width: 650px) and (max-width:1100px ){
+  .icon{
+    width: 8vw;
+    height: 8vw;
+  }
+
+
+  .iconbox > h3{
+    margin-top: 1vw;
+  }
+
+  .iconbox > p{
+    margin-top: 1vw;
+  }
+
+  .iconEarth{
+    width: 5vw!important;
+  }
+
+  .iconWater{
+    width: 5vw!important;
+  }
+
+  .iconTree{
+    width: 8vw!important;
+  }
+
+  .treeImageTitle{
+    width: 3.2vw;
+    position: absolute;
+    margin-top: 2vw !important;
+
+  }
+
+
+
 }
 
 .icon i:hover{
@@ -137,16 +164,6 @@
   color: var(--primaryBlue)
 }
 
-/*.section-title {*/
-/*  position: relative;*/
-/*  padding-left: 60px;*/
-/*}*/
-
-
-
-
-
-/*blok2Home*/
 
 
 .fotoLinksTekstRechts1{
@@ -163,7 +180,7 @@
 }
 
 
-/*blok3Home*/
+
 
 .bg-bos {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../../assets/img/forestBanner.jpg"), no-repeat center center;
@@ -172,7 +189,6 @@
 }
 
 
-/*blok4Home*/
 
 .blok4Home{
 
