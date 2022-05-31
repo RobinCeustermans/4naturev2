@@ -15,7 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
 import { PrivacyComponent } from './footer/privacy/privacy.component';
 import { CookieComponent } from './footer/cookie/cookie.component';
-
+import {ReactiveFormsModule} from '@angular/forms';
 
 
 // @ts-ignore
@@ -38,7 +38,8 @@ import { CookieComponent } from './footer/cookie/cookie.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
