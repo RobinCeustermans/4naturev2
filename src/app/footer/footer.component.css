@@ -136,3 +136,85 @@ footer .form-control {
     margin-top: 1.2vw;
   }
 }
+
+
+@media screen and (max-width: 991px) {
+  footer {
+    margin-bottom: -2vw
+  }
+
+  /*links*/
+  .icon:before{
+    font-size: 3vw !important;
+  }
+
+  /*rechts*/
+  #bordering > a > span{
+    font-size: 2vw !important;
+  }
+
+  .form-header{
+    margin-top: 2.3vw;
+  }
+
+  /*bodem footer*/
+
+  .copyright{
+    font-size: 1.6vw;
+  }
+}
+
+
+
+@media screen and (max-width: 600px){
+  footer {
+    margin-bottom: -3vw
+  }
+
+  .footerHeader{
+    text-align: center;
+  }
+
+  .footerHeader > span {
+    font-size: 10vw;
+    margin-left: 5vw;
+  }
+
+  .footerHeader > img {
+    margin-bottom: 5vw
+  }
+
+  /*iconen met contactgegevens*/
+
+  /*links*/
+  .icon:before{
+    font-size: 7vw !important;
+  }
+
+  /*rechts*/
+  #bordering > a > span{
+    font-size: 5.5vw !important;
+  }
+
+
+  /*contactformulier*/
+
+  .contactForm{
+    text-align: center;
+    padding-right: 5vw;
+  }
+
+  .form-header{
+    margin-top: 4vw;
+    font-size: 10vw !important;
+  }
+
+  .bedrijfBtn{
+    margin-left: 0 !important;
+  }
+
+  .copyright{
+    font-size: 3vw;
+  }
+
+}

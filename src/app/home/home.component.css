@@ -177,43 +177,69 @@
     width: 8vw!important;
   }
 
-  .treeImageTitle{
-    width: 3.2vw;
-    position: absolute;
-    margin-right: 1vw;
-    margin-top: 4.5vw !important;
 
+}
+
+
+@media screen and (max-width: 991px) {
+  .blok2Home, .blok4Home{
+    margin-bottom: 50vw !important;
+  }
+
+
+  .fotoLinks1 {
+    margin-top: 10vw;
+    height: 60vw !important;
+  }
+
+  .fotoRechts1{
+    margin-top: 10vw;
+    height: 60vw !important;
+  }
+
+  .callToAction2blok4{
+    font-size: 4vw;
   }
 }
 
 
 
 @media screen and (max-width: 600px){
-  .icon{
-    width: 8vw;
-    height: 8vw;
+  .iconEarth, .iconWater{
+    width: 12vw !important;
+    height: 12vw !important;
+  }
+
+  .iconTree{
+    width: 16vw !important;
+    height: 12vw !important;
   }
 
   .iconbox > h3{
     margin-top: 1vw;
+    font-size: 5vw;
   }
 
   .iconbox > p{
+    font-size: 4vw !important;
     margin-top: 1vw;
   }
 
-  .iconEarth{
-    width: 5vw!important;
+
+  /*tekst boven foto*/
+
+  .treeImageTitle{
+    margin-top: 5vw !important;
+    width: 9vw;
+    position: absolute;
   }
 
-  .iconWater{
-    width: 5vw!important;
-  }
 
-  .iconTree{
-    width: 8vw!important;
-  }
+  /*call to action onderaan*/
 
+  .callToAction2blok4{
+    font-size: 6vw;
+  }
 
 }
 
