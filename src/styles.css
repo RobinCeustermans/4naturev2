@@ -10,9 +10,8 @@
   --header2: 50px;
 }
 
-/*body{*/
-/*  background-color: #E2FFDC;*/
-/*}*/
+/*footer*/
+
 
 
 /*blok1*/
@@ -194,6 +193,12 @@
   background-color: var(--primaryBlue);
 }
 
+
+.bedrijfBtn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
 /*h1*/
 .section-title-links1, .section-title-rechts1{
   font-size: 2.8vw;
@@ -362,13 +367,17 @@
   background-color: #FFFFFF;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1100px){
   #background-video{
     height: 134vw;
   }
   /*#background-video{*/
   /*  height: 134vw;*/
   /*}*/
+
+
+  /*algemene stijl*/
+
 
   .content{
     margin-top: 75vw;
@@ -379,79 +388,26 @@
     margin-top: 10vw;
     margin-bottom: 20px;
   }
-  .section-title-links1, .section-title-rechts1{
+  .section-title-links1, .section-title-rechts1, .bosHeader{
 
     padding-top: 3vw;
-    padding-left: 0vw;
-    font-size: 4vw;
-  }
-  .treeImageTitle{
-    width: 5vw!important;
-  }
-  p {
-    font-size: 3vw!important;
-  }
-  h1{
-    font-size: 5vw!important;
+    padding-left: 0;
+    font-size: 3vw !important;
   }
 
-  h2{
-    font-size: 4vw!important;
+  .section-subTitle-rechts1, .section-subTitle-links1, .section-para-rechts1, .bosText{
+    font-size: 2vw !important;
   }
 
-  h4 {
-    font-size: 3.5vw!important;
+  .bedrijfBtn{
+    font-size: 3vw;
   }
-  .btn{
-    font-size: 3.5vw!important;
 
-  }
+
+  /*sectie met bos als donkere achtergrond*/
 
 }
-/*@media screen and (min-width: 650px) and (max-width:1100px ) {*/
 
-
-/*  p {*/
-/*    font-size: 3vw;*/
-/*  }*/
-/*  h1{*/
-/*    font-size: 5vw;*/
-/*  }*/
-
-/*  h2{*/
-/*    font-size: 4vw;*/
-/*  }*/
-/*  h4 {*/
-/*    font-size: 3.5vw!important;*/
-/*  }*/
-
-
-/*  !*h4 {*!*/
-/*  !*  font-size: 3.5vw;*!*/
-/*  !*}*!*/
-
-/*}*/
-
-/*@media screen and (max-width: 600px){*/
-
-/*  p {*/
-/*    font-size: 3vw!important;*/
-/*  }*/
-/*  h1{*/
-/*    font-size: 5vw!important;*/
-/*  }*/
-
-/*  h2{*/
-/*    font-size: 4vw!important;*/
-/*  }*/
-
-/*  h4 {*/
-/*    font-size: 3.5vw!important;*/
-/*  }*/
-
-
-
-/*}*/
 
 
 

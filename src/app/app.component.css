@@ -9,8 +9,14 @@
   --header2: 50px;
 }
 
-.navigatie{
+@media screen and (max-width: 1100px) {
+  .navText{
+    font-size: 1.5vw !important;
+  }
 
+  .logoWit{
+    width: 6.5vw;
+  }
 }
 
 

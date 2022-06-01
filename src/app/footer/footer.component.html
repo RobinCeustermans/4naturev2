@@ -17,10 +17,16 @@
                 <i class="fa fa-envelope icon  pr-3"></i>
                 <span>kevin@4nature.be</span>
               </a>
-              <a class="btn rounded text-white p-3 text-start col-12">
+              <a  href="https://www.google.be/maps/place/Sint-Paulusstraat+53,+2400+Mol/@51.1886815,5.1093396,17z/data=!3m1!4b1!4m5!3m4!1s0x47c135a60b4c7a11:0x854380830144c95c!8m2!3d51.1886782!4d5.1115283"
+                  target="_blank"
+                  class="btn rounded text-white p-3 text-start col-12">
                 <i class="fa fa-map-marker icon pr-3"></i>
-                <span>Sint Paulusstraat  53,  2400 Mol,  België</span>
+                <span>Sint Paulusstraat  53  </span>
+                <br/>
+                <i class="fa fa-map-marker icon pr-3 noIcon"></i>
+                <span>2400 Mol,  België</span>
               </a>
+
             </div>
 
           </div>
@@ -30,33 +36,37 @@
 
       <div class="col-md-8 contactForm">
         <h2 class="form-header">Contacteer ons</h2>
-        <form>
+
+        <form class="" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" >
           <fieldset class="form-group">
-            <input type="text" class="form-control" id="inputNaam" placeholder="Naam">
+            <input class="form-control" type="text" name="name" ngModel required #name="ngModel" id="inputNaam" placeholder="Naam" >
           </fieldset>
           <fieldset class="form-group">
-            <input type="text" class="form-control" id="inputBedrijf" placeholder="Bedrijf">
+            <input class="form-control" type="text" name="company" ngModel #company="ngModel"  id="inputBedrijf" placeholder="Bedrijf" >
           </fieldset>
           <fieldset class="form-group">
-            <input type="email" class="form-control" id="inputMail" placeholder="email">
+            <input class="form-control" type="email" name="email" ngModel required #email="ngModel" id="inputMail" placeholder="email" >
           </fieldset>
           <fieldset class="form-group">
-            <input type="tel" class="form-control" id="inputTelefoon" placeholder="telefoon">
+            <input  class="form-control" type="tel" name="phone" ngModel #phone="ngModel" id="inputTelefoon" placeholder="telefoon" >
           </fieldset>
           <fieldset class="form-group">
-            <textarea class="form-control" rows="5" id="exampleMessage" placeholder="Boodschap"></textarea>
+            <textarea class="form-control" rows="5" name="message" ngModel #message="ngModel" id="inputBoodschap" placeholder="Boodschap" ></textarea>
           </fieldset>
-          <fieldset class="form-group text-xs-right">
-            <button type="button" class="btn text-light bedrijfBtn">Verstuur</button>
+          <fieldset class="form-group text-xs-right ">
+            <button type="submit"  class="btn text-light bedrijfBtn">Verstuur</button>
           </fieldset>
         </form>
+
+
       </div>
     </div>
     <p class="copyright">© COPYRIGHT 2022, 4Nature
       | Alle rechten voorbehouden
       | <a (click)="toCookie()">Cookiebeleid</a>
       | <a  (click)="toPrivacy()">Privacybeleid</a>
-      | site: krachtigonline.be</p>
+      | <a href="https://krachtigonline.be/" target="_blank">site: krachtigonline.be</a> </p>
 
   </div>
 </footer>
+

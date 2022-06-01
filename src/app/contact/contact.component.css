@@ -1,3 +1,22 @@
 .content{
   margin-top: -10vw;
 }
+
+.contactRow{
+  margin-left: 5vw;
+}
+
+.contactForm{
+  padding: 7vw 5vw 2vw 1vw;
+
+}
+
+.contactContainer{
+  background-color: #F6FFF4;
+  padding: 3vw;
+  border-radius: 20px;
+}
+
+.tekstKolomRechts1{
+  padding: 9vw 10vw 2vw 1vw;
+}

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
-import {FormGroup, FormBuilder} from '@angular/forms';
+import {FormGroup, FormBuilder, NgForm} from '@angular/forms';
+import {ContactService} from '../contact.service';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 
 @Component({
@@ -9,23 +11,31 @@ import {FormGroup, FormBuilder} from '@angular/forms';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  footerForm: FormGroup | undefined;
 
-  constructor(private router : Router, private fb: FormBuilder) { }
+  FormData: FormGroup;
+  constructor(private router : Router, private builder: FormBuilder, private contact: ContactService
+              ,private http: HttpClient) {}
 
-  ngOnInit(): void {
-    this.initializeForm();
+  ngOnInit() {
+
   }
 
-  initializeForm(): void{
-    this.footerForm = this.fb.group({
-      name:'',
-      company:'',
-      maim: '',
-      phone: '',
-      message: ''
-    })
+  onSubmit(contactForm: NgForm) {
+    if (contactForm.valid) {
+      const email = contactForm.value;
+      const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+      this.http.post('https://formspree.io/f/mrgjjjze',
+        { naam: email.name, bedrijf: email.company, verzender: email.email, telefoon: email.phone, bericht: email.message },
+        { 'headers': headers }).subscribe(
+        response => {
+          console.log(response);
+        }
+      );
+    }
   }
+
+
+
 
   toPrivacy(){
     this.router.navigate(['/privacy'])
@@ -34,6 +44,8 @@ export class FooterComponent implements OnInit {
   toCookie(){
     this.router.navigate(['/cookie'])
   }
+
+
 
 
 }
