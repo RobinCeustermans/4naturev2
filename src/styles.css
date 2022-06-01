@@ -708,7 +708,7 @@
       font-size: 10vw;
     }
 
-    .heading > h4, .section-title-rechts1, .section-title-links1, .bosHeader{
+    .heading > h4, .section-title-rechts1, .section-title-links1, .bosHeader, .voordelenHeader{
       font-size: 7vw !important;
     }
 
@@ -716,7 +716,7 @@
       font-size: 5vw !important;
     }
 
-    .bedrijfBtn{
+    .bedrijfBtn, .beheerBtn{
       font-size: 5vw;
     }
 
@@ -725,5 +725,10 @@
 
     .bedrijfBtn{
       margin-left: 6% !important;
+    }
+
+    .treeImageTitle2{
+      width: 7vw !important;
+      margin-top: 0vw !important;
     }
 }

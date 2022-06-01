@@ -1,5 +1,7 @@
 
-
+.background-image{
+  display: none;
+}
 
 /*blok1*/
 
@@ -281,6 +283,51 @@ section.pricing > div > h2{
     height: 60vw !important;
   }
 
+}
 
+
+@media screen and (max-width: 600px){
+  .background-video{
+    display: none;
+  }
+
+  .background-image{
+    display: initial;
+  }
+
+  .content{
+    margin-top: 120vw
+  }
+
+
+  /*eerste blok*/
+
+
+  .bedrijfBtn2{
+    margin-bottom: 20vw;
+    margin-top: 10vw;
+  }
+
+
+  /*de iconen*/
+
+  .iconImg{
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .iconbox > h3{
+    font-size: 6vw;
+  }
+
+  .iconbox > p {
+    font-size: 4vw;
+  }
+
+  /*groene sectie*/
+
+  .treeImageTitle{
+    margin-top: 6vw !important;
+  }
 
 }
