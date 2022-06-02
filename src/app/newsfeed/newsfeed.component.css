@@ -159,3 +159,42 @@
     height: 60vw !important;
   }
 }
+
+
+@media screen and (max-width: 600px){
+
+  .blok2Realisaties{
+    padding-bottom: 30vw !important;
+  }
+
+  .voordelenHeader{
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+  }
+
+
+  .img {
+    height: 90vw !important;
+    width: 90vw !important;
+    margin-bottom: 8vw;
+  }
+
+  .img:after {
+    width: 80vw;
+    height: 85vw;
+  }
+
+  .achievementHeader{
+    font-size: 8vw;
+  }
+
+  .achievementPara{
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .fotoLinks1{
+    margin-top: 15vw !important;
+  }
+}
