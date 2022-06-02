@@ -14,10 +14,6 @@
   height: 32vw !important;
 }
 
-.fotoRechts1{
-  background: url("../../assets/img/dadSon.jpg"), no-repeat center center;
-  height: 32vw !important;
-}
 
 
 
@@ -47,21 +43,6 @@
 /*blok5*/
 
 
-
-
-/*.bg-bos {*/
-/*  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/forestBanner.jpg"), no-repeat center center;*/
-/*  background-size: cover;*/
-/*  display:block;*/
-/*  text-align: center;*/
-/*}*/
-
-/*.bg-bos > h1{*/
-/*  color: white;*/
-/*  font-size: 2.5vw;*/
-/*  padding: 6vw 4vw 4vw 4vw;*/
-/*}*/
-
 .blok5Hoe{
   margin-top: 10vw;
 }
@@ -78,40 +59,87 @@
   padding: 2vw 8vw 0 8vw;
 }
 
-.iconbox{
-  text-align: center;
-  width: 100%;
-  padding: 1vw 6vw 1vw 6vw;
-  /*background-clip: content-box;*/
-  /*background-color: #F6FFF4;*/
-  /*border-radius: 40%;*/
+
+
+@media screen and (max-width: 1100px){
+  /*vlak onder de landing*/
+
+
+  .fotoLinks1 {
+    height: 40vw !important;
+  }
+
+  /*eerste groene blok*/
+
+  .blok3Hoe{
+    padding-top: 5vw;
+  }
+
+  .fotoRechtsTekstLinks1{
+    padding-right: 5vw !important;
+  }
+
+  /*tweede groene blok*/
+
+  .blok4Hoe{
+    padding-top: 4vw;
+    padding-bottom: 3vw;
+  }
+
+  .fotoLinksTekstRechts1{
+    padding-left: 5vw;
+  }
+
+  /*iconen*/
+
+  .voordelenHeader{
+    padding: 0 3vw 0 3vw;
+  }
 }
 
-.iconImg{
-  width: 5vw;
-  height: 5vw;
-  margin-top: 1vw;
+
+@media screen and (max-width: 991px){
+  /*onder de landing*/
+  .fotoLinksTekstRechts1{
+    padding-right: 5vw;
+  }
+  .fotoLinks1 {
+    height: 60vw !important;
+  }
+
+  /*eerste groene stuk*/
+  .blok3Hoe{
+    padding-top: 10vw;
+  }
+  .fotoRechtsTekstLinks1{
+    padding-left: 5vw;
+  }
+
+  .fotoRechts2{
+    margin-top: 5vw;
+    height: 60vw !important;
+  }
+
+  /*tweede groene stuk*/
+
+  .blok4Hoe{
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+  }
+
+  .fotoLinks2{
+    height: 60vw !important;
+  }
 }
 
-.iconbox > h3{
-  font-size: 1.6vw;
-  margin-top: 0.5vw;
-  color: var(--primaryBlue) !important;
+
+@media screen and (max-width: 600px){
+  /*onder de landing*/
+
+  .bedrijfBtn{
+    margin-top: 5vw
+  }
+  .fotoLinksTekstRechts1{
+    padding-top: 15vw;
+  }
 }
-
-.iconbox > p{
-  font-size: 1vw;
-  margin-top: 0.5vw;
-  font-weight: 500;
-  color: var(--primaryBlue) !important;
-  padding-left: 1.5vw;
-  padding-right: 1.5vw;
-}
-
-.iconbox:hover{
-  transform: scale(0.95);
-  transition: 300ms;
-}
-
-
-

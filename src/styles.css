@@ -264,7 +264,7 @@
 
 /*h2*/
 .blok5Hoe > div > h2, .blok3Bedrijf > div > h2, section.pricing > div > h2,
-.blok2Realisaties > h2, .puntHeaderContainer > h2, .contactFormTitle {
+.blok2Realisaties > h2, .puntHeaderContainer > h2, .contactFormTitle, .voordelenHeader {
   font-size: 2vw;
   color:  var(--primaryBlue);
 }
@@ -601,7 +601,39 @@
   transition-timing-function: ease
 }
 
+.iconboxGrid{
+  padding: 2vw 8vw 0 8vw;
+}
 
+.iconbox{
+  text-align: center;
+  width: 100%;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+.iconImg{
+  width: 5vw;
+  height: 5vw;
+  margin-top: 1vw;
+}
+
+.iconbox > h3{
+  font-size: 1.6vw;
+  margin-top: 0.5vw;
+  color: var(--primaryBlue) !important;
+}
+
+.iconbox > p{
+  font-size: 1vw;
+  margin-top: 0.5vw;
+  font-weight: 500;
+  color: var(--primaryBlue) !important;
+}
+
+.iconbox:hover{
+  transform: scale(0.95);
+  transition: 300ms;
+}
 
 
 
@@ -639,7 +671,7 @@
     padding-right: 1.5vw;
   }
 
-  .section-title-links1, .section-title-rechts1, .bosHeader{
+  .section-title-links1, .section-title-rechts1, .bosHeader, .voordelenHeader{
 
     padding-top: 3vw;
     padding-left: 0;
@@ -665,6 +697,34 @@
     margin-top: 7vw !important;
     margin-right: 5vw;
   }
+
+
+  .iconboxGrid{
+    padding: 2vw 4vw 0 4vw;
+  }
+
+  .iconbox{
+    text-align: center;
+    width: 100%;
+    padding: 1vw 3vw 1vw 3vw;
+  }
+
+  .iconImg{
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .iconbox > h3{
+    font-size: 3vw;
+    margin-top: 1vw;
+  }
+
+  .iconbox > p{
+    font-size: 2vw;
+    font-weight: 400;
+  }
+
+
 }
 
 
@@ -712,7 +772,7 @@
     }
 
     .heading > h4, .section-title-rechts1, .section-title-links1, .bosHeader, .voordelenHeader
-    , .tarievenHeader, .contactFormTitle {
+    , .tarievenHeader, .contactFormTitle, .voordelenHeader {
       font-size: 7vw !important;
     }
 
@@ -732,6 +792,24 @@
       width: 7vw !important;
       margin-top: 0vw !important;
     }
+
+
+  /*de iconen*/
+
+  .iconImg{
+    width: 25vw;
+    height: 25vw;
+    margin-top: 3vw;
+  }
+
+  .iconbox > h3{
+    font-size: 6vw;
+  }
+
+  .iconbox > p {
+    font-size: 4.5vw;
+  }
+
 }
 
 
