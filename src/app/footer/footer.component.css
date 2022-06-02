@@ -87,7 +87,7 @@ footer .form-control {
   font-size: 1.3vw !important;
 }
 
-.contactForm{
+.contactFormFooter{
   padding-left: 5vw;
 }
 
@@ -115,6 +115,20 @@ footer .form-control {
 
 .alert{
   color: white;
+}
+
+
+
+/*navigatie*/
+
+.navigatieFooter{
+  display: none;
+  padding-left: 10vw;
+}
+
+#bordering2 > a > i, #bordering2 > a > span,
+#bordering3 > a > i, #bordering3 > a > span{
+  font-size: 1vw !important;
 }
 
 

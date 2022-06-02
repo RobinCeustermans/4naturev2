@@ -20,9 +20,9 @@ export class FooterComponent implements OnInit {
 
   }
 
-  onSubmit(contactForm: NgForm) {
-    if (contactForm.valid) {
-      const email = contactForm.value;
+  onSubmit(contactFormFooter: NgForm) {
+    if (contactFormFooter.valid) {
+      const email = contactFormFooter.value;
       const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
       this.http.post('https://formspree.io/f/mrgjjjze',
         { naam: email.name, bedrijf: email.company, verzender: email.email, telefoon: email.phone, bericht: email.message },

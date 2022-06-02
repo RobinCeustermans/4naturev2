@@ -34,32 +34,71 @@
         <br>
       </div>
 
-      <div class="col-md-8 contactForm">
-        <h2 class="form-header">Contacteer ons</h2>
+      <div class="col-md-8 contactFormFooter">
+          <h2 class="form-header">Contacteer ons</h2>
 
-        <form class="" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" >
-          <fieldset class="form-group">
-            <input class="form-control" type="text" name="name" ngModel required #name="ngModel" id="inputNaam" placeholder="Naam" >
-          </fieldset>
-          <fieldset class="form-group">
-            <input class="form-control" type="text" name="company" ngModel #company="ngModel"  id="inputBedrijf" placeholder="Bedrijf" >
-          </fieldset>
-          <fieldset class="form-group">
-            <input class="form-control" type="email" name="email" ngModel required #email="ngModel" id="inputMail" placeholder="email" >
-          </fieldset>
-          <fieldset class="form-group">
-            <input  class="form-control" type="tel" name="phone" ngModel #phone="ngModel" id="inputTelefoon" placeholder="telefoon" >
-          </fieldset>
-          <fieldset class="form-group">
-            <textarea class="form-control" rows="5" name="message" ngModel #message="ngModel" id="inputBoodschap" placeholder="Boodschap" ></textarea>
-          </fieldset>
-          <fieldset class="form-group text-xs-right ">
-            <button type="submit"  class="btn text-light bedrijfBtn">Verstuur</button>
-          </fieldset>
-        </form>
-
-
+          <form class="" (ngSubmit)="onSubmit(contactFormFooter)" #contactFormFooter="ngForm" >
+            <fieldset class="form-group">
+              <input class="form-control" type="text" name="name" ngModel required #name="ngModel" id="inputNaam" placeholder="Naam" >
+            </fieldset>
+            <fieldset class="form-group">
+              <input class="form-control" type="text" name="company" ngModel #company="ngModel"  id="inputBedrijf" placeholder="Bedrijf" >
+            </fieldset>
+            <fieldset class="form-group">
+              <input class="form-control" type="email" name="email" ngModel required #email="ngModel" id="inputMail" placeholder="email" >
+            </fieldset>
+            <fieldset class="form-group">
+              <input  class="form-control" type="tel" name="phone" ngModel #phone="ngModel" id="inputTelefoon" placeholder="telefoon" >
+            </fieldset>
+            <fieldset class="form-group">
+              <textarea class="form-control" rows="5" name="message" ngModel #message="ngModel" id="inputBoodschap" placeholder="Boodschap" ></textarea>
+            </fieldset>
+            <fieldset class="form-group text-xs-right ">
+              <button type="submit"  class="btn text-light bedrijfBtn">Verstuur</button>
+            </fieldset>
+          </form>
       </div>
+
+      <div class="col-md-8 navigatieFooter">
+        <h2 class="form-header">Kijk even verder</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="links text-start" id="bordering2">
+              <a routerLink="/" class="btn rounded text-white p-3 text-start col-12">
+                <span>Home</span>
+              </a>
+              <a routerLink="/beheer-mee" class="btn rounded text-white p-3 text-start col-12">
+                <span>Beheer mee</span>
+              </a>
+              <a routerLink="/hoe" class="btn rounded text-white p-3 text-start col-12">
+                <span>Hoe?</span>
+              </a>
+              <a routerLink="/bedrijven" class="btn rounded text-white p-3 text-start col-12">
+                <span>Bedrijven</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="links text-start" id="bordering3">
+              <a routerLink="/newsfeed" class="btn rounded text-white p-3 text-start col-12">
+                <span>Onze realisaties</span>
+              </a>
+              <a routerLink="/partners" class="btn rounded text-white p-3 text-start col-12">
+                <span>Partners</span>
+              </a>
+              <a routerLink="/over-ons" class="btn rounded text-white p-3 text-start col-12">
+                <span>Over Ons</span>
+              </a>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
     </div>
     <p class="copyright">© COPYRIGHT 2022, 4Nature
       | Alle rechten voorbehouden

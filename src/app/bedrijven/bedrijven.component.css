@@ -173,8 +173,11 @@ section.pricing > div > h2{
 
 
 @media screen and (max-width: 1100px){
-  .background-video{
-    background-position: left 200px top 100px !important;
+
+  /*eerste blok*/
+
+  .treeImageTitle4{
+    margin-top: 4vw !important;
   }
 
   /*iconenrij*/
@@ -321,7 +324,7 @@ section.pricing > div > h2{
   }
 
   .iconbox > p {
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   /*groene sectie*/
@@ -330,4 +333,46 @@ section.pricing > div > h2{
     margin-top: 6vw !important;
   }
 
+  /*overig*/
+  .treeImageTitle3{
+    margin-top: 0!important;
+  }
+
+  /*prijzenkaartjes*/
+
+  .blok6Bedrijf{
+    padding: 0 6vw 0 6vw;
+  }
+
+  .tarievenHeader{
+    padding-bottom: 10vw !important;
+  }
+}
+
+
+@media screen and (max-width: 330px) {
+  .iconbox > p {
+    font-size: 5.5vw;
+  }
+
+  /*overig*/
+  .treeImageTitle3{
+    margin-top: 8vw!important;
+  }
+
+  .treeImageTitle4{
+    margin-top: 1vw!important;
+  }
+
+  /*prijskaarten*/
+
+
+  .blok6Bedrijf{
+    padding: 0 4vw 0 4vw;
+  }
+
+  .tarievenHeader{
+    padding-bottom: 25vw !important;
+    padding-top: 10vw;
+  }
 }

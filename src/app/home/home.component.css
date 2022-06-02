@@ -237,6 +237,11 @@
 
   /*call to action onderaan*/
 
+  .callToActionRow{
+    margin-top: 8vw;
+    margin-bottom: 2vw;
+  }
+
   .callToAction2blok4{
     font-size: 6vw;
   }
@@ -247,16 +252,11 @@
 
 
 @media screen and (max-width: 330px){
-  /*.background-video {*/
-  /*  width: 80%;*/
-  /*  height: 100%;*/
-  /*  object-fit: cover;*/
-  /*  position: fixed;*/
-  /*  left: 0;*/
-  /*  right: 0;*/
-  /*  top: 0;*/
-  /*  !*bottom: 0;*!*/
-  /*  z-index: -1;*/
-  /*}*/
+
+  /*call to action sectie homepagina vlak boven footer*/
+  .callToAction2blok4{
+    font-size: 8vw;
+  }
+
 }
 
