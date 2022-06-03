@@ -49,10 +49,26 @@
   color: white;
 }
 
-
-
 .tekstKolomLinksCards{
   margin-right: 2vw;
   margin-left: 7vw;
   padding-bottom: 3vw;
+}
+
+@media screen and (max-width: 1100px){
+  .treeImageTitle2{
+    margin-top: 3.2vw !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .treeImageTitle2{
+    margin-top: 0!important;
+  }
+
+  /*kaarjes*/
+
+  .bedrijfBtn{
+    margin-right: 15vw !important;
+  }
 }

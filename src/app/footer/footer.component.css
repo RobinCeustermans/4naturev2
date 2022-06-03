@@ -149,6 +149,11 @@ footer .form-control {
     font-size: 3vw !important;
     margin-top: 1.2vw;
   }
+
+  #bordering2 > a > i, #bordering2 > a > span,
+  #bordering3 > a > i, #bordering3 > a > span{
+    font-size: 2vw !important;
+  }
 }
 
 
@@ -169,6 +174,11 @@ footer .form-control {
 
   .form-header{
     margin-top: 2.3vw;
+  }
+
+  #bordering2 > a > i, #bordering2 > a > span,
+  #bordering3 > a > i, #bordering3 > a > span{
+    font-size: 2.5vw !important;
   }
 
   /*bodem footer*/
@@ -210,6 +220,10 @@ footer .form-control {
     font-size: 5.5vw !important;
   }
 
+  #bordering2 > a > i, #bordering2 > a > span,
+  #bordering3 > a > i, #bordering3 > a > span{
+    font-size: 5vw !important;
+  }
 
   /*contactformulier*/
 
@@ -230,6 +244,7 @@ footer .form-control {
   }
 
   .copyright{
+    margin-top: 10vw;
     font-size: 3vw;
   }
 

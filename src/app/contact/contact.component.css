@@ -1,7 +1,3 @@
-
-
-
-
 .content{
   margin-top: -10vw;
 }
@@ -9,9 +5,6 @@
 .treeImageTitle{
   margin-top: -0.7vw !important;
 }
-
-
-
 
 .contactRow{
   margin-left: 5vw;
@@ -27,7 +20,7 @@
 }
 
 .contactContainer{
-  background-color: #F6FFF4;
+  background-color: #E8FFE3;
   padding: 3vw;
   border-radius: 20px;
 }
@@ -48,4 +41,50 @@
 
 :host ::ng-deep .navigatieFooter {
   display: initial !important;
+}
+
+
+@media screen and (max-width: 1100px){
+  .treeImageTitle{
+    margin-top: 6vw !important;
+  }
+}
+
+@media screen and (max-width: 991px){
+ .contactRow{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .contactForm{
+   order: 2;
+ }
+
+ .vragenContainer{
+   order:1;
+ }
+
+  .treeImageTitle{
+    margin-top: 2vw !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .treeImageTitle{
+    margin-top: 4vw !important;
+  }
+
+  .contactFormTitle{
+    margin-left: 5vw;
+  }
+
+  .contactContainer{
+    margin-bottom: 10vw;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .treeImageTitle{
+    margin-top: 5vw !important;
+  }
 }

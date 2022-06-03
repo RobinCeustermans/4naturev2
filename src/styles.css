@@ -757,9 +757,20 @@
   }
 
 
-  /*contactkaarten*/
+  /*partners en over ons*/
 
+  .rowContainer{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .tekstContainerLinks1Partner{
+    order: 2;
+  }
+
+  .tekstContainerRechts1Partner{
+    order: 1;
+  }
 
 
 }
@@ -846,6 +857,27 @@
   .iconbox > p {
     font-size: 4.5vw;
   }
+
+  /*partnerkaarten*/
+
+  .rowContainer{
+    margin-left: 8vw;
+  }
+
+  .partnerCard{
+    margin-top: 10vw;
+  }
+
+  .naamHeaderKaart{
+    font-size: 7vw;
+  }
+
+  .telefoonNummer{
+    font-size: 5vw !important;
+  }
+
+
+
 
 }
 
