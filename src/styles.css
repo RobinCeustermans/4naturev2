@@ -10,10 +10,6 @@
   --header2: 50px;
 }
 
-/*footer*/
-
-
-
 /*blok1*/
 
 
@@ -57,6 +53,7 @@
   font-weight: 600;
   font-size: 1vw;
   opacity: 100% !important;
+  transition: transform 200ms;
 }
 
 
@@ -66,7 +63,6 @@
 
 .nav-link:hover{
   transform: scale(1.1);
-  transition: 400ms;
 }
 
 .nav-link:active{
@@ -230,11 +226,15 @@
   opacity: 90%;
   font-size: 1.2vw;
   font-weight: 700;
+  transition: transform 200ms;
+}
+
+.logo-header{
+  transition: transform 400ms;
 }
 
 .logo-header:hover,.beheerBtn:hover, .bedrijfBtn:hover {
   transform: scale(1.1);
-  transition: 400ms;
 }
 
 .beheerBtn{
@@ -427,6 +427,11 @@
   width: 100% !important;
   border-radius: 10px !important;
   background-repeat: no-repeat !important;
+  transition: transform 200ms;
+}
+
+.fotoLinks1:hover, .fotoRechts1:hover{
+  transform: scale(0.98);
 }
 
 

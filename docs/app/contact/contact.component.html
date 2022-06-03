@@ -7,5 +7,49 @@
 
 <div class="content">
 
+
+  <div class="row g-0 contactRow">
+
+    <div class="col-lg-7 contactForm ">
+      <h3 class="contactFormTitle">Vul hier je gegevens in</h3>
+      <div class="contactContainer">
+        <form class="" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" >
+          <fieldset class="form-group">
+            <input class="form-control" type="text" name="name" ngModel required #name="ngModel" id="inputNaam" placeholder="Naam" >
+          </fieldset>
+          <fieldset class="form-group">
+            <input class="form-control" type="text" name="company" ngModel #company="ngModel"  id="inputBedrijf" placeholder="Bedrijf" >
+          </fieldset>
+          <fieldset class="form-group">
+            <input class="form-control" type="email" name="email" ngModel required #email="ngModel" id="inputMail" placeholder="email" >
+          </fieldset>
+          <fieldset class="form-group">
+            <input  class="form-control" type="tel" name="phone" ngModel #phone="ngModel" id="inputTelefoon" placeholder="telefoon" >
+          </fieldset>
+          <fieldset class="form-group">
+            <textarea class="form-control" rows="5" name="message" ngModel #message="ngModel" id="inputBoodschap" placeholder="Boodschap" ></textarea>
+          </fieldset>
+          <fieldset class="form-group text-xs-right ">
+            <button type="submit"  class="btn text-light bedrijfBtn">Verstuur</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-lg-5 vragenContainer">
+      <div class="tekstKolomRechts1">
+        <img class="treeImageTitle" src="assets/img/singleIconTreeBlue.png">
+        <h1 class="mb-4 ms-5 section-title-rechts1">
+          Heb je vragen?
+        </h1>
+        <h4 class="section-subTitle-rechts1 mb-3">
+          We zullen zo snel mogelijk reageren op je vragen. Laat iets weten!
+        </h4>
+      </div>
+    </div>
+
+  </div>
+
   <app-footer></app-footer>
+
 </div>

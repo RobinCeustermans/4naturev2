@@ -37,7 +37,7 @@
 -------------------------------------------------- */
 footer {
   padding-top: 6vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../../assets/img/footerBanner.jpg"), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../../assets/img/footerFoto.jpg"), no-repeat center center;
   color: white;
   margin-bottom: -1vw
 }
@@ -59,7 +59,7 @@ footer .form-control {
   border: none;
   resize: none;
   margin-bottom: 0.3vw;
-  color: #d1d2d2;
+  color: black;
   padding: 1vw 0.5vw 1vw 0.5vw;
 }
 
@@ -67,14 +67,27 @@ footer .form-control {
   font-size: 2vw;
 }
 
+.footerHeader > img{
+  transition: transform 300ms;
+}
+
+.footerHeader > img:hover{
+  transform: scale(1.1);
+}
+
 .footerHeader > span{
   margin-left: 1vw;
 }
 
+.noIcon{
+  visibility: hidden;
+}
+
 
 .form-header{
-  margin-top: 0.6vw;
+  margin-top: 0.4vw;
   margin-bottom: 40px;
+  font-size: 2vw;
 }
 
 
@@ -91,13 +104,164 @@ footer .form-control {
   margin-top: 2vw;
 }
 
+
 .copyright {
   color: white;
   font-weight: 600;
   width: 100%;
   line-height: 30px;
-  font-size: 1.2vw;
+  font-size: 16px;
   text-align: center;
   bottom:0;
   margin-top: 3vw;
+}
+
+
+.alert-danger{
+  background-color: red;
+}
+
+.alert{
+  color: white;
+}
+
+
+
+/*navigatie*/
+
+.navigatieFooter{
+  display: none;
+  padding-left: 10vw;
+}
+
+#bordering2 > a > i, #bordering2 > a > span,
+#bordering3 > a > i, #bordering3 > a > span{
+  font-size: 1vw !important;
+}
+
+
+@media screen and (max-width: 1750px) {
+
+  .form-header{
+    margin-top: 0.75vw;
+  }
+}
+
+
+
+@media screen and (max-width:1100px ){
+  /*links footer*/
+  .footerHeader{
+    font-size: 3vw;
+  }
+
+  #bordering > a > span{
+    font-size: 1.7vw !important;
+  }
+
+  /*rechts footer*/
+
+  .form-header{
+    font-size: 3vw !important;
+    margin-top: 1.2vw;
+  }
+
+  #bordering2 > a > i, #bordering2 > a > span,
+  #bordering3 > a > i, #bordering3 > a > span{
+    font-size: 2vw !important;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  footer {
+    margin-bottom: -2vw
+  }
+
+  /*links*/
+  .icon:before{
+    font-size: 3vw !important;
+  }
+
+  /*rechts*/
+  #bordering > a > span{
+    font-size: 2vw !important;
+  }
+
+  .form-header{
+    margin-top: 2.3vw;
+  }
+
+  #bordering2 > a > i, #bordering2 > a > span,
+  #bordering3 > a > i, #bordering3 > a > span{
+    font-size: 2.5vw !important;
+  }
+
+  /*bodem footer*/
+
+  .copyright{
+    font-size: 1.6vw;
+  }
+}
+
+
+
+@media screen and (max-width: 600px){
+  footer {
+    margin-bottom: -3vw
+  }
+
+  .footerHeader{
+    text-align: center;
+  }
+
+  .footerHeader > span {
+    font-size: 10vw;
+    margin-left: 5vw;
+  }
+
+  .footerHeader > img {
+    margin-bottom: 5vw
+  }
+
+  /*iconen met contactgegevens*/
+
+  /*links*/
+  .icon:before{
+    font-size: 7vw !important;
+  }
+
+  /*rechts*/
+  #bordering > a > span{
+    font-size: 5.5vw !important;
+  }
+
+  #bordering2 > a > i, #bordering2 > a > span,
+  #bordering3 > a > i, #bordering3 > a > span{
+    font-size: 5vw !important;
+  }
+
+  /*contactformulier*/
+
+  .contactForm{
+    text-align: center;
+    padding-right: 5vw;
+  }
+
+  .form-header{
+    margin-top: 4vw;
+    font-size: 10vw !important;
+  }
+
+  .bedrijfBtn{
+    margin-left: 0 !important;
+    margin-top: 15vw !important;
+    margin-bottom: 15vw !important;
+  }
+
+  .copyright{
+    margin-top: 10vw;
+    font-size: 3vw;
+  }
+
 }

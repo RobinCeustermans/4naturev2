@@ -16,24 +16,30 @@
 
 /*blok2*/
 .blok2Realisaties{
-  background-color: #F6FFF4;
+  background-color: #E8FFE3;
   margin-bottom: -6vw;
+
 }
 
 .blok2Realisaties > h2 {
   text-align: center;
   font-size: 3vw;
   margin-bottom: 6vw;
+
 }
 
-.containerm {
-  min-height: 20vw;
-  overflow: hidden;
-  width: 100%;
-  display: flex;
+.containerm{
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 3vw;
+  display: flex;
+}
+
+.boxContainer{
+  max-width: 80%;
+}
+
+.imgContainer{
+
 }
 
 .img {
@@ -42,11 +48,9 @@
   width: 20vw;
   position: relative;
   cursor: pointer;
-  margin: 0 15px;
   box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
-  transition: .5s;
-  background-color: #555;
   text-align: center;
+  margin-bottom: 4vw;
 }
 
 .img:after {
@@ -61,16 +65,16 @@
   background-color: var(--primaryBlue);
   opacity: 0.9;
   border-radius: 50%;
-  transition: .8s
 }
 
 .img:hover:after {
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .img:hover .achievementHeader{
   display:none;
 }
+
 
 .img:hover img {
   transform: translate(-50%, -50%) scale(1.3) rotate(20deg)
@@ -83,6 +87,7 @@
   margin-top: 2vw;
   position: relative;
   z-index: 100;
+  transition: transform 2000ms;
 }
 
 .backgroundImg {
@@ -96,6 +101,7 @@
 
 .achievementPara {
   position: absolute;
+  font-size: 1.3vw;
   z-index: 2;
   top: 50%;
   left: 50%;
@@ -108,4 +114,84 @@
 .img:hover p {
   transform: translate(-50%, -50%);
   transition-timing-function: ease
+}
+
+
+@media screen and (max-width: 1100px){
+  .fotoLinks1{
+    height: 35vw !important;
+  }
+
+  .img {
+    height: 28vw !important;
+    width: 28vw !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .boxContainer{
+    max-width: 100%;
+  }
+
+  .img:after {
+    width: 28vw;
+    height: 28vw;
+  }
+
+  .achievementHeader{
+    font-size: 2.5vw;
+  }
+
+  .achievementPara{
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .fotoLinksTekstRechts1{
+    padding-bottom: 10vw;
+    padding-top: 5vw;
+  }
+
+  .fotoLinks1{
+    height: 60vw !important;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+
+  .blok2Realisaties{
+    padding-bottom: 30vw !important;
+  }
+
+  .voordelenHeader{
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+  }
+
+
+  .img {
+    height: 90vw !important;
+    width: 90vw !important;
+    margin-bottom: 8vw;
+  }
+
+  .img:after {
+    width: 80vw;
+    height: 85vw;
+  }
+
+  .achievementHeader{
+    font-size: 8vw;
+  }
+
+  .achievementPara{
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .fotoLinks1{
+    margin-top: 15vw !important;
+  }
 }

@@ -1,7 +1,7 @@
-.content{
-  margin-top: 23%;
-}
 
+.background-image{
+  display: none;
+}
 
 /*blok1*/
 
@@ -10,7 +10,7 @@
 }
 
 .fotoLinks1{
-  background: url("../../assets/img/bussinessMan.jpg"), no-repeat center center;
+  background: url("../../assets/img/bussinessWoman.jpg"), no-repeat center center;
   height: 32vw !important;
 }
 
@@ -43,57 +43,52 @@
   margin-bottom: 2vw;
 }
 
-.iconboxGrid{
-  padding: 2vw 8vw 0 8vw;
-}
+/*.iconboxGrid{*/
+/*  padding: 2vw 8vw 0 8vw;*/
+/*}*/
 
-.iconbox{
-  text-align: center;
-  width: 100%;
-  padding: 1vw 2vw 1vw 2vw;
-  /*background-clip: content-box;*/
-  /*background-color: #F6FFF4;*/
-  /*border-radius: 40%;*/
-}
+/*.iconbox{*/
+/*  text-align: center;*/
+/*  width: 100%;*/
+/*  padding: 1vw 2vw 1vw 2vw;*/
+/*  !*background-clip: content-box;*!*/
+/*  !*background-color: #F6FFF4;*!*/
+/*  !*border-radius: 40%;*!*/
+/*}*/
 
-.iconImg{
-  width: 5vw;
-  height: 5vw;
-  margin-top: 1vw;
-}
+/*.iconImg{*/
+/*  width: 5vw;*/
+/*  height: 5vw;*/
+/*  margin-top: 1vw;*/
+/*}*/
 
-.iconbox > h3{
-  font-size: 1.6vw;
-  margin-top: 0.5vw;
-  color: var(--primaryBlue) !important;
-}
+/*.iconbox > h3{*/
+/*  font-size: 1.6vw;*/
+/*  margin-top: 0.5vw;*/
+/*  color: var(--primaryBlue) !important;*/
+/*}*/
 
-.iconbox > p{
-  font-size: 1vw;
-  margin-top: 0.5vw;
-  font-weight: 500;
-  color: var(--primaryBlue) !important;
-}
+/*.iconbox > p{*/
+/*  font-size: 1vw;*/
+/*  margin-top: 0.5vw;*/
+/*  font-weight: 500;*/
+/*  color: var(--primaryBlue) !important;*/
+/*}*/
 
-.iconbox:hover{
-  transform: scale(0.95);
-  transition: 300ms;
-}
-
-
-
-
-
+/*.iconbox:hover{*/
+/*  transform: scale(0.95);*/
+/*  transition: 300ms;*/
+/*}*/
 
 
 /*blok3 en 4*/
 .blok4Bedrijf{
   margin-top: 8vw;
-  background-color: #F6FFF4;
+  background-color: #E8FFE3;
 }
 
 .blok5Bedrijf{
-  background-color: #F6FFF4;
+  background-color: #E8FFE3;
 }
 
 .fotoRechts2{
@@ -128,7 +123,7 @@ section.pricing > div > h2{
   border-radius: 1rem;
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  background-color: #F6FFF4;
+  background-color: #E8FFE3;
   margin: 0 2vw 0 2vw;
   min-height: 25vw;
 }
@@ -171,9 +166,58 @@ section.pricing > div > h2{
   transition: all 0.2s;
 }
 
+
+@media screen and (max-width: 1100px){
+
+  /*eerste blok*/
+
+  .treeImageTitle4{
+    margin-top: 4vw !important;
+  }
+
+  /*iconenrij*/
+
+
+  .blok3Bedrijf > div > h2{
+    font-size: 3vw;
+  }
+
+
+  /*groene sectie*/
+
+
+  .blok4Bedrijf{
+    padding-top: 10vw;
+  }
+
+  .fotoRechtsTekstLinks2{
+    padding-right: 5vw;
+  }
+
+  .blok5Bedrijf{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .fotoLinksTekstRechts2{
+    padding-left: 5vw;
+  }
+
+
+  /*prijzenkaartjes*/
+
+
+  .tarievenHeader{
+    font-size: 3vw;
+   padding-bottom: 3vw !important;
+  }
+
+}
+
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
+
   .pricing .card:hover {
     margin-top: -.25rem;
     margin-bottom: .25rem;
@@ -182,5 +226,107 @@ section.pricing > div > h2{
 
   .pricing .card:hover .btn {
     opacity: 1;
+  }
+
+}
+
+
+@media screen and (max-width: 991px){
+  /*vlak onder video landing*/
+  .fotoLinks1{
+    height: 60vw!important;
+  }
+
+
+  /*groene sectie*/
+
+  .fotoRechtsTekstLinks2, .fotoLinksTekstRechts2{
+    padding: 7vw;
+  }
+
+  .fotoRechts2{
+    height: 65vw !important;
+  }
+
+  .blok5Bedrijf{
+    padding-bottom: 12vw;
+  }
+
+  .fotoLinks2{
+    height: 60vw !important;
+  }
+
+}
+
+
+@media screen and (max-width: 600px){
+  .background-video{
+    display: none;
+  }
+
+  .background-image{
+    display: initial;
+  }
+
+  .content{
+    margin-top: 120vw
+  }
+
+
+  /*eerste blok*/
+
+
+  .bedrijfBtn2{
+    margin-bottom: 20vw;
+    margin-top: 10vw;
+  }
+
+  /*groene sectie*/
+
+  .treeImageTitle{
+    margin-top: 6vw !important;
+  }
+
+  /*overig*/
+  .treeImageTitle3{
+    margin-top: 0!important;
+  }
+
+  /*prijzenkaartjes*/
+
+  .blok6Bedrijf{
+    padding: 0 6vw 0 6vw;
+  }
+
+  .tarievenHeader{
+    padding-bottom: 10vw !important;
+  }
+}
+
+
+@media screen and (max-width: 330px) {
+  .iconbox > p {
+    font-size: 5.5vw;
+  }
+
+  /*overig*/
+  .treeImageTitle3{
+    margin-top: 8vw!important;
+  }
+
+  .treeImageTitle4{
+    margin-top: 1vw!important;
+  }
+
+  /*prijskaarten*/
+
+
+  .blok6Bedrijf{
+    padding: 0 4vw 0 4vw;
+  }
+
+  .tarievenHeader{
+    padding-bottom: 25vw !important;
+    padding-top: 10vw;
   }
 }

@@ -55,8 +55,71 @@
 
 /*blok4*/
 
+.treeImageTitle3{
+  width: 2.2vw !important;
+  margin-top: -0.5vw !important;
+}
 
 .fotoRechts1{
   background: url("../../assets/img/maintenance.jpg"), no-repeat center center;
   height: 30vw !important;
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+  .content{
+    margin-top: 80vw !important;
+  }
+
+  /*vlak onder landing*/
+
+  .fotoLinks1{
+    height: 36vw !important;
+  }
+
+  /*derde blok*/
+
+  .fotoRechts1{
+    height: 38vw !important;
+  }
+
+  .treeImageTitle3{
+    width: 3.2vw !important;
+    margin-top: 3.2vw !important;
+  }
+}
+
+
+@media screen and (max-width: 991px){
+  /*vlak onder landing*/
+  .fotoLinks1{
+    height: 60vw !important;
+  }
+
+  /*derde blok*/
+  .fotoRechts1{
+    height: 58vw !important;
+    margin-top: 3vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content{
+    margin-top: 130vw !important;
+  }
+
+  /*derde blok*/
+
+  .treeImageTitle3{
+    width: 7vw !important;
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .treeImageTitle{
+    margin-top: 1vw !important;
+  }
 }
