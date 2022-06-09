@@ -5,11 +5,21 @@
 
 
   <div class="heading">
-    <img class="logo-header" src="assets/img/logoWIT.png">
-    <h1 class="text-light mb-3">4Nature</h1>
-    <h4 class="text-light">Let forests grow</h4>
-    <a class="btn text-light m-4 bedrijfBtn" routerLink="/beheer-mee" role="button">Beheer mee</a>
-    <a class="btn text-light m-4 bedrijfBtn" routerLink="/bedrijven" role="button">Ben je een bedrijf?</a>
+    <img class="logo-header" src="assets/img/logoWIT.png" data-aos="zoom-in">
+    <h1 class="text-light mb-3" data-aos="zoom-in">4Nature</h1>
+    <h4 class="text-light" data-aos="zoom-in">Let forests grow</h4>
+    <a class="btn text-light m-4 bedrijfBtn" data-aos="fade-up-right"  routerLink="/beheer-mee" role="button">Beheer mee</a>
+    <a class="btn text-light m-4 bedrijfBtn" data-aos="fade-up-left" routerLink="/bedrijven" role="button">Voor bedrijven</a>
+
+    <a href="#blok2Home">
+      <svg class="arrows">
+        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+      </svg>
+    </a>
+
+
   </div>
 
 
@@ -20,21 +30,27 @@
         <div class="">
           <div class="row g-0">
             <div class="col-md-4 g-0 iconboxContainer">
-              <div class="iconbox">
+              <div class="iconbox"
+                   data-aos="fade-up"
+                   data-aos-duration="500">
                 <img class="iconEarth"  src="assets/img/iconEarthWhite.png">
                 <h3>C02-Captatie</h3>
                 <p>Voor elke euro vang je maar liefst <b>4 kilogram</b> Co2 op</p>
               </div>
             </div>
             <div class="col-md-4 iconboxContainer2">
-              <div class="iconbox">
+              <div class="iconbox"
+                   data-aos="fade-up"
+                   data-aos-duration="1000">
                 <img class="iconWater" src="assets/img/iconWaterWhite.png">
                 <h3>Grondwater</h3>
                 <p>Elke boom die geplant wordt zal het <b>grondwatervooraad</b> aansterken</p>
               </div>
             </div>
             <div class="col-md-4 iconboxContainer g-0">
-              <div class="iconbox">
+              <div class="iconbox"
+                   data-aos="fade-up"
+                   data-aos-duration="1500">
                 <img class="iconTree" src="assets/img/iconTreeWhite.png">
                 <h3>Bescherming bossen</h3>
                 <p>Door mee te investeren, zal 4Nature de bescherming van <b>inheemse soorten</b> garanderen </p>
@@ -46,14 +62,17 @@
     </div>
 
 
-    <div class="container-fluid py-5 mb-5 blok2Home">
-      <div class="row ">
-        <div class="col-lg-7 my-auto fotoLinksTekstRechts1">
-          <div class="d-flex flex-column align-items-center justify-content-center fotoLinks1 rounded h-100 py-5 px-3">
+    <div class="container-fluid py-5 mb-5 blok2Home" id="blok2Home">
+      <div class="row">
+        <div class="col-lg-7 my-auto fotoLinksTekstRechts1" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div
+               class="d-flex flex-column align-items-center justify-content-center fotoLinks1 rounded h-100 py-5 px-3">
           </div>
         </div>
         <div class="col-lg-5 my-auto  tekstContainerRechts1">
-          <div class="tekstKolomRechts1">
+          <div class="tekstKolomRechts1"
+              >
             <img class="treeImageTitle" src="assets/img/singleIconTreeBlue.png">
             <h1 class="mb-4 ms-5 section-title-rechts1">
               Samen creëren we weerbare bossen.
@@ -65,7 +84,8 @@
             <p class="section-para-rechts1"> Reeds hebben we al
               meer dan 18 hectare bossen die we beschermen en beheren.
               Wil jij ons helpen om nog sneller te groeien? Wil jij ook je steentje bijdragen? Dat Kan!</p>
-            <div class="d-flex align-items-center pt-4">
+            <div class="d-flex align-items-center pt-4 buttonParent"
+                 data-aos="fade-up" data-aos-duration="1000">
               <a class="btn text-light bedrijfBtn" routerLink="/beheer-mee">Beheer mee</a>
             </div>
           </div>
@@ -78,7 +98,7 @@
       <div class="container-fluid bg-bos py-5 justify-content-center">
         <div class="container py-5 justify-content-center">
           <div class="row align-items-center justify-content-center">
-            <div class="col-lg-12 justify-content-center bosTextContainer">
+            <div class="col-lg-12 justify-content-center bosTextContainer" data-aos="zoom-in">
               <h1 class="mb-4 bosHeader  text-white">4Nature bestaat uit 2 grote delen</h1>
               <p class="text-white bosText">Enerzijds heb je 4Nature Nv een verhikel dat instaat voor het verwerven van de bossen.
                 Anderzijds heb je 4Nature Beheer dat instaat voor het beheer en de financiering van de bossen.</p>
@@ -123,12 +143,16 @@
                 </div>
               </div>
             </div>
-            <div class="d-flex align-items-center pt-4">
-              <a class="btn text-light bedrijfBtn" routerLink="/beheer-mee">Beheer mee</a>
+            <div class="d-flex align-items-center pt-4"
+                 data-aos="fade-up" data-aos-duration="1000">
+              <a class="btn text-light bedrijfBtn"
+
+                 routerLink="/beheer-mee">Beheer mee</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-7 my-auto fotoRechtsTekstLinks1 foto">
+        <div class="col-lg-7 my-auto fotoRechtsTekstLinks1  foto" data-aos="fade-up"
+             data-aos-duration="1500" >
           <div class="d-flex flex-column align-items-center justify-content-center fotoRechts1 rounded h-100 py-5 px-3">
           </div>
         </div>

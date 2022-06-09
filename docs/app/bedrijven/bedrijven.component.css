@@ -3,6 +3,11 @@
   display: none;
 }
 
+.content{
+  margin-top: 20vw;
+}
+
+
 /*blok1*/
 
 .blok1BedrijfRow{
@@ -42,43 +47,6 @@
 .blok3Bedrijf > div > h2{
   margin-bottom: 2vw;
 }
-
-/*.iconboxGrid{*/
-/*  padding: 2vw 8vw 0 8vw;*/
-/*}*/
-
-/*.iconbox{*/
-/*  text-align: center;*/
-/*  width: 100%;*/
-/*  padding: 1vw 2vw 1vw 2vw;*/
-/*  !*background-clip: content-box;*!*/
-/*  !*background-color: #F6FFF4;*!*/
-/*  !*border-radius: 40%;*!*/
-/*}*/
-
-/*.iconImg{*/
-/*  width: 5vw;*/
-/*  height: 5vw;*/
-/*  margin-top: 1vw;*/
-/*}*/
-
-/*.iconbox > h3{*/
-/*  font-size: 1.6vw;*/
-/*  margin-top: 0.5vw;*/
-/*  color: var(--primaryBlue) !important;*/
-/*}*/
-
-/*.iconbox > p{*/
-/*  font-size: 1vw;*/
-/*  margin-top: 0.5vw;*/
-/*  font-weight: 500;*/
-/*  color: var(--primaryBlue) !important;*/
-/*}*/
-
-/*.iconbox:hover{*/
-/*  transform: scale(0.95);*/
-/*  transition: 300ms;*/
-/*}*/
 
 
 /*blok3 en 4*/

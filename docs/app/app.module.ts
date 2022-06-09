@@ -18,6 +18,7 @@ import { CookieComponent } from './footer/cookie/cookie.component';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { FormGroup, FormBuilder } from  '@angular/forms';
+import {UtilityService} from './utility.service';
 
 
 // @ts-ignore
@@ -48,7 +49,7 @@ import { FormGroup, FormBuilder } from  '@angular/forms';
   exports: [
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [UtilityService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ViewportScroller} from '@angular/common';
+import {UtilityService} from '../utility.service';
 
 @Component({
   selector: 'app-beheer-mee',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BeheerMeeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private util:UtilityService) {}
 
   ngOnInit(): void {
   }
 
+  onClickNavigate(elementid: string){
+    this.util.onClickNavigate(elementid);
+  }
 }

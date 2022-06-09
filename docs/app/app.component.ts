@@ -1,7 +1,7 @@
-import {Component, ElementRef, HostListener, OnInit, ViewChild} from '@angular/core';
-import {FormGroup, FormControl} from '@angular/forms';
-import {hasClassName} from '@ng-bootstrap/ng-bootstrap/util/util';
+import {Component} from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+// @ts-ignore
+import * as AOS from 'aos';
 
 //to use jquery
 declare var $: any;
@@ -36,7 +36,11 @@ export class AppComponent {
         }
       });
     });
+
+    AOS.init();
   }
+
+
 
 
 }

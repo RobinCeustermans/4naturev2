@@ -5,18 +5,29 @@
 <img class="background-image" src="assets/img/bedrijvenLandingMobiel.png">
 
 <div class="heading">
-  <img class="logo-header" src="assets/img/logoWIT.png">
-  <h1 class="text-light mb-3">4Nature bedrijven</h1>
-  <h4 class="text-light">Let forests grow</h4>
-  <a class="btn text-light m-4 beheerBtn" routerLink="/beheer-mee" role="button">Beheer mee</a>
+  <img class="logo-header" src="assets/img/logoWIT.png" data-aos="zoom-in">
+  <h1 class="text-light mb-3" data-aos="zoom-in">4Nature bedrijven</h1>
+  <h4 class="text-light" data-aos="zoom-in">Let forests grow</h4>
+  <a class="btn text-light m-4 beheerBtn" routerLink="/beheer-mee" role="button" data-aos="zoom-in">Beheer mee</a>
+
+  <a (click)="onClickNavigate('blok1Bedrijf')">
+    <svg class="arrows">
+      <path class="a1" d="M0 0 L30 32 L60 0"></path>
+      <path class="a2" d="M0 20 L30 52 L60 20"></path>
+      <path class="a3" d="M0 40 L30 72 L60 40"></path>
+    </svg>
+  </a>
 </div>
+
+
 
 
 <div class="content">
 
-  <div class="container-fluid py-5 mb-5 blok1Bedrijf">
+  <div class="container-fluid py-5 mb-5 blok1Bedrijf" id="blok1Bedrijf">
     <div class="row blok1BedrijfRow">
-      <div class="col-lg-7 my-auto fotoLinksTekstRechts1">
+      <div class="col-lg-7 my-auto fotoLinksTekstRechts1" data-aos="fade-up"
+           data-aos-duration="1500">
         <div class="d-flex flex-column align-items-center justify-content-center fotoLinks1 rounded h-100 py-5 px-3">
         </div>
       </div>
@@ -34,7 +45,7 @@
             uit te breiden en te beschermen via een duurzaam model waarbij alle stakeholders gebaat zijn.
 
           </p>
-          <div class="d-flex align-items-center pt-4">
+          <div class="d-flex align-items-center pt-4" data-aos="fade-up" data-aos-duration="1000">
             <a class="btn text-light bedrijfBtn bedrijfBtn2" routerLink="/beheer-mee">Beheer mee</a>
           </div>
         </div>
@@ -45,7 +56,7 @@
   <div class="container-fluid bg-bos py-5 justify-content-center blok2Bedrijf">
     <div class="container py-5 justify-content-center">
       <div class="row align-items-center justify-content-center">
-        <div class="col-lg-12 justify-content-center bosTextContainer">
+        <div class="col-lg-12 justify-content-center bosTextContainer " data-aos="zoom-in">
           <h1 class="mb-4 bosHeader  text-white">
             Investeerders staan centraal
           </h1>
@@ -70,7 +81,8 @@
       <div class="py-5 justify-content-center iconboxGrid">
         <div class="row g-0 justify-content-center">
           <div class="col-md-3 iconboxContainer">
-            <div class="iconbox">
+            <div class="iconbox" data-aos="fade-up"
+                 data-aos-duration="500">
               <img class="iconImg"  src="assets/img/transactionIconBlue.png">
               <h3>Aankoop</h3>
               <p>
@@ -80,7 +92,8 @@
             </div>
           </div>
           <div class="col-md-3 iconboxContainer">
-            <div class="iconbox">
+            <div class="iconbox" data-aos="fade-up"
+                 data-aos-duration="1000">
               <img class="iconImg" src="assets/img/qualityIconBlue.png">
               <h3>
                 Schaalvoordeel
@@ -91,7 +104,8 @@
             </div>
           </div>
           <div class="col-md-3 iconboxContainer">
-            <div class="iconbox">
+            <div class="iconbox" data-aos="fade-up"
+                 data-aos-duration="1500">
               <img class="iconImg" src="assets/img/demandIconBlue.png">
               <h3>
                 Schaarste
@@ -103,7 +117,8 @@
             </div>
           </div>
           <div class="col-md-3 iconboxContainer">
-            <div class="iconbox">
+            <div class="iconbox" data-aos="fade-up"
+                 data-aos-duration="2000">
               <img class="iconImg"  src="assets/img/safetyIconBlue.png">
               <h3>
                 Veilig
@@ -180,7 +195,8 @@
         <h2 class="tarievenHeader">De tarieven</h2>
         <div class="row g-0">
 
-          <div class="col-lg-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center" data-aos="fade-up"
+               data-aos-duration="500">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">Berk</h5>
@@ -203,7 +219,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center" data-aos="fade-up"
+               data-aos-duration="1000">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">Beuk</h5>
@@ -226,7 +243,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 d-flex justify-content-center">
+          <div class="col-lg-4 d-flex justify-content-center" data-aos="fade-up"
+               data-aos-duration="1500">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">Eik</h5>

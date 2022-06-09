@@ -20,7 +20,13 @@
 /*blok3 en 4*/
 .blok3Hoe{
   margin-top: 5vw;
+  display: flex !important;
   background-color: #E8FFE3;
+}
+
+.tekstContainerLinks2{
+  height: 100%;
+
 }
 
 .blok4Hoe{
