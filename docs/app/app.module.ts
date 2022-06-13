@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
@@ -17,9 +16,8 @@ import { PrivacyComponent } from './footer/privacy/privacy.component';
 import { CookieComponent } from './footer/cookie/cookie.component';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
-import { FormGroup, FormBuilder } from  '@angular/forms';
 import {UtilityService} from './utility.service';
-
+import {LocationStrategy, HashLocationStrategy} from '@angular/common';
 
 // @ts-ignore
 // @ts-ignore
@@ -49,7 +47,12 @@ import {UtilityService} from './utility.service';
   exports: [
     ReactiveFormsModule
   ],
-  providers: [UtilityService],
+  providers: [UtilityService,
+    {provide: LocationStrategy, useClass: HashLocationStrategy}]
+  ,
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+

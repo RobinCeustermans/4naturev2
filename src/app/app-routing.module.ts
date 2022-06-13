@@ -13,6 +13,7 @@ import {PrivacyComponent} from './footer/privacy/privacy.component';
 import {CookieComponent} from './footer/cookie/cookie.component';
 
 
+
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'beheer-mee', component: BeheerMeeComponent},
